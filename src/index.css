@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Rubik";
+    src: url("../assets/fonts/Rubik-Regular.ttf") format("truetype");
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+    color: #374151;
+}

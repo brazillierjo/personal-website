@@ -1,0 +1,58 @@
+[
+    {
+        "name": "HTML 5",
+        "class": "devicon-html5-plain colored"
+    },
+    {
+        "name": "CSS 3",
+        "class": "devicon-css3-plain colored"
+    },
+    {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain colored"
+    },
+    {
+        "name": "TypeScript",
+        "class": "devicon-typescript-plain colored"
+    },
+    {
+        "name": "Sass",
+        "class": "devicon-sass-original colored"
+    },
+    {
+        "name": "Tailwind",
+        "class": "devicon-tailwindcss-plain colored"
+    },
+    {
+        "name": "Bootstrap",
+        "class": "devicon-bootstrap-plain colored"
+    },
+    {
+        "name": "MySql",
+        "class": "devicon-mysql-plain colored"
+    },
+    {
+        "name": "MongoDB",
+        "class": "devicon-mongodb-plain colored"
+    },
+    {
+        "name": "WordPress",
+        "class": "devicon-wordpress-plain-wordmark"
+    },
+    {
+        "name": "React",
+        "class": "devicon-react-original colored"
+    },
+    {
+        "name": "Vue",
+        "class": "devicon-vuejs-plain colored"
+    },
+    {
+        "name": "NodeJS",
+        "class": "devicon-nodejs-plain colored"
+    },
+    {
+        "name": "Express",
+        "class": "devicon-express-original-wordmark"
+    }
+]

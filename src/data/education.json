@@ -1,0 +1,37 @@
+[
+    {
+        "company": "3WAcademy",
+        "title": "(BAC+3) Licence Intégrateur/Développeur Web et mobile",
+        "years": "2020 - 2021",
+        "mainTech": ["React", "NodeJS", "MySQL"],
+        "technologies": []
+    },
+    {
+        "company": "OpenClassrooms",
+        "title": "Développeur Web - Diplôme de niveau 5 RNCP",
+        "years": "2020",
+        "mainTech": ["HTML", "CSS", "JavaScript", "MySQL", "Vue"],
+        "technologies": []
+    },
+    {
+        "company": "Université de Toulon",
+        "title": "(BAC+3) Licence E-commerce & Marketing Numérique",
+        "years": "2016 - 2017",
+        "mainTech": ["Gestion d'équipe", "Marketing", "Marketing Digital", "SEO", "Référencement", "E-commerce"],
+        "technologies": []
+    },
+    {
+        "company": "Défi83 - Toulon",
+        "title": "(BAC+2) BTS Management des Unités Commerciales",
+        "years": "2014 - 2016",
+        "mainTech": ["Gestion d'équipe", "Marketing", "Marketing Digital"],
+        "technologies": []
+    },
+    {
+        "company": "Jean Aicard - Hyères",
+        "title": "Baccalauréat Science & Technologies de Gestion",
+        "years": "2010 - 2012",
+        "mainTech": ["Comptabilité"],
+        "technologies": []
+    }
+]
