@@ -36,11 +36,9 @@ export const Main: React.FC<{}> = () => {
                     </button>
                 </Link>
             </div>
-            <BsArrowDownShort
-                onClick={handleScroll}
-                className='absolute bottom-0 left-1/2 mb-4 -translate-x-1/2 animate-bounce hover:cursor-pointer'
-                size={30}
-            />
+            <div className='absolute bottom-5 left-1/2 -ml-[15px] transform animate-bounce hover:cursor-pointer'>
+                <BsArrowDownShort onClick={handleScroll} size={30} />
+            </div>
         </div>
     );
 };
