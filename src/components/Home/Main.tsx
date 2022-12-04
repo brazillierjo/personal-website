@@ -5,6 +5,11 @@ import { BsArrowDownShort } from "react-icons/bs";
 import Avatar from "../../assets/png/avatar.png";
 
 export const Main: React.FC<{}> = () => {
+    const handleScroll = () => {
+        const aboutMe = document.getElementById("about-me");
+        aboutMe?.scrollIntoView({ behavior: "smooth" });
+    };
+    
     return (
         <div className='custom-h-screen relative mx-auto text-center'>
             <div className='absolute top-1/2 left-1/2 flex w-full -translate-y-1/2 -translate-x-1/2 flex-col space-y-3'>
@@ -31,7 +36,11 @@ export const Main: React.FC<{}> = () => {
                     </button>
                 </Link>
             </div>
-            <BsArrowDownShort className='absolute bottom-0 left-1/2 mb-4 -translate-x-1/2 animate-bounce' size={30} />
+            <BsArrowDownShort
+                onClick={handleScroll}
+                className='absolute bottom-0 left-1/2 mb-4 -translate-x-1/2 animate-bounce hover:cursor-pointer'
+                size={30}
+            />
         </div>
     );
 };
