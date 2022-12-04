@@ -3,6 +3,7 @@ import { TbBrandLinkedin } from "react-icons/tb";
 import { VscGithub } from "react-icons/vsc";
 import { BsArrowDownShort } from "react-icons/bs";
 import Avatar from "../../assets/png/avatar.png";
+import { AppWidth, IS_MOBILE } from "../../helpers/AppWidth";
 
 export const Main: React.FC<{}> = () => {
     const handleScroll = () => {
@@ -36,9 +37,11 @@ export const Main: React.FC<{}> = () => {
                     </button>
                 </Link>
             </div>
-            <div className='absolute bottom-5 left-1/2 -ml-[15px] transform animate-bounce hover:cursor-pointer'>
-                <BsArrowDownShort onClick={handleScroll} size={30} />
-            </div>
+            {!IS_MOBILE && (
+                <div className='absolute bottom-5 left-1/2 -ml-[15px] transform animate-bounce hover:cursor-pointer'>
+                    <BsArrowDownShort onClick={handleScroll} size={30} />
+                </div>
+            )}
         </div>
     );
 };
