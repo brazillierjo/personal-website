@@ -7,7 +7,7 @@ import { Portfolio } from "./pages/Portfolio";
 import { Contact } from "./pages/Contact";
 import { Footer } from "./components/Commons/Footer";
 import "./index.css";
-import { MainParticles } from "./components/Home/Particles";
+import ScrollToTop from "./components/Commons/ScrollToTop";
 
 const AppLayout = () => {
     return (
@@ -41,11 +41,9 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
     <React.StrictMode>
-        <div className='absolute z-0 max-h-screen'>
-            <MainParticles />
-        </div>
-        <main className='relative z-10 mx-auto max-w-[1200px]'>
+        <main className='relative z-10 mx-auto max-w-[1200px] p-4'>
             <RouterProvider router={router} />
+            <ScrollToTop />
         </main>
     </React.StrictMode>
 );

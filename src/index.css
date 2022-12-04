@@ -4,10 +4,11 @@
 
 @font-face {
     font-family: "Rubik";
-    src: url("../assets/fonts/Rubik-Regular.ttf") format("truetype");
+    src: url("./assets/font/Rubik-Regular.ttf") format("truetype");
 }
 
 body {
+    background-color: #f3f4f6;
     font-family: "Rubik", sans-serif;
     color: #374151;
 }

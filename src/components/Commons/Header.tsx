@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 export const Header: React.FC<{}> = () => {
     return (
         <div className='flex h-12 items-center justify-between'>
-            <h2 className='text-4xl text-primary'>
-                <Link to='/'>
+            <Link to='/'>
+                <h2 className='text-4xl font-extrabold text-primary'>
                     Johan<span className='text-secondary-100'>.</span>
-                </Link>
-            </h2>
+                </h2>
+            </Link>
 
             <div className='flex h-full items-center gap-5 font-semibold'>
                 <Link
