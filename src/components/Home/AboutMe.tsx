@@ -15,7 +15,7 @@ export const AboutMe: React.FC<{}> = () => {
             <h2 className='pb-5 text-4xl font-bold'>À propos de moi</h2>
 
             <div className='flex w-full flex-wrap justify-between'>
-                <div className='w-full lg:w-7/12'>
+                <div className='w-full md:w-7/12'>
                     <div className='mt-5 flex flex-col space-y-4'>
                         {data.map((item, index) => {
                             if (!item.isInReadMore) {
@@ -56,7 +56,7 @@ export const AboutMe: React.FC<{}> = () => {
                         )}
                     </div>
                 </div>
-                <div className='mt-6 flex w-full flex-col space-y-4 lg:mt-0 lg:w-3/12'>
+                <div className='mt-6 flex w-full flex-col space-y-4 md:mt-0 md:w-3/12'>
                     <div className='flex items-center gap-3'>
                         <RiCheckDoubleLine className='text-green-500' size={25} />
                         <span>Dévelopement frontend</span>

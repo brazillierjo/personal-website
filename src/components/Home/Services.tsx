@@ -1,7 +1,28 @@
+import { Link } from "react-router-dom";
+
 export const Services: React.FC<{}> = () => {
     return (
-        <div>
-            <h1>Services</h1>
+        <div className='pb-5'>
+            <div className='grid gap-4 md:grid-cols-3'>
+                <div className='rounded-lg bg-green-500 p-5 text-center text-white'>
+                    <img src='' alt='' />
+                    <h3 className='mb-3 text-xl font-semibold'>Développement Web</h3>
+                    <p>Création, édition, maintenance de projets web</p>
+                </div>
+                <div className='rounded-lg bg-orange-400 p-5 text-center text-white'>
+                    <img src='' alt='' />
+                    <h3 className='mb-3 text-xl font-semibold'>UI/UX Design</h3>
+                    <p>Proposition de templates en flat/modern design</p>
+                </div>
+                <div className='rounded-lg bg-blue-800 p-5 text-center text-white'>
+                    <img src='' alt='' />
+                    <h3 className='text-xl font-semibold'>WordPress</h3>
+                    <p>Création, édition, maintenance de projets web avec WordPress</p>
+                </div>
+            </div>
+            <Link to='/contact'>
+                <p className='mt-5 text-center'>Un de ces services vous intéresse ? Cliquez-ici pour me contacter 👏</p>
+            </Link>
         </div>
-    )
-}
+    );
+};

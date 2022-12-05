@@ -41,7 +41,7 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
     <React.StrictMode>
-        <main className='relative z-10 mx-auto max-w-[1200px] p-4'>
+        <main className='relative z-10 mx-auto max-w-[1200px] p-10 md:p-4'>
             <RouterProvider router={router} />
             <ScrollToTop />
         </main>

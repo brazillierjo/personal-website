@@ -12,7 +12,7 @@ export const Home: React.FC<{}> = () => {
             <AboutMe />
             <div className='py-20'>
                 <h2 className='pb-5 text-4xl font-bold'>Expériences & Diplômes</h2>
-                <div className='grid gap-10 lg:grid-cols-2 lg:justify-between'>
+                <div className='grid gap-10 md:grid-cols-2 md:justify-between'>
                     <Experiences />
                     <Education />
                 </div>
