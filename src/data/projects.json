@@ -1,0 +1,165 @@
+[
+    {
+        "title": "Piano",
+        "startDate": "2022",
+        "description": "De l'enregistrement du son des clés jusqu'au design, on peut passer des heures sur ce piano sans avoir besoin d'en acheter un !",
+        "images": [
+            "portfolio/piano.webp"
+        ],
+        "url": "https://brazillierjo.github.io/piano/",
+        "technologies": [
+            {
+                "class": "devicon-html5-plain colored",
+                "name": "HTML"
+            },
+            {
+                "class": "devicon-css3-plain colored",
+                "name": "CSS"
+            },
+            {
+                "class": "devicon-javascript-plain colored",
+                "name": "JavaScript"
+            }
+        ]
+    },
+    {
+        "title": "Sites WordPress",
+        "title2": "(cliquez pour faire défiler les maquettes)",
+        "startDate": "2022",
+        "description": "Création de sites WordPress avec builder de type Ave/Avada/Elementor.",
+        "images": [
+            "portfolio/concession.webp",
+            "portfolio/creche.webp"
+        ],
+        "url": "",
+        "technologies": [
+            {
+                "class": "devicon-nextjs-plain colored",
+                "name": "NextJs"
+            },
+            {
+                "class": "devicon-typescript-plain colored",
+                "name": "TypeScript"
+            },
+            {
+                "class": "devicon-nodejs-plain colored",
+                "name": "NodeJs"
+            }
+        ]
+    },
+    {
+        "title": "Générateur de séance de musculation",
+        "startDate": "2022",
+        "description": "ma-sante.fr est un gérénateur de séance de musculation. Je me suis rapidement rendu compte qu'en allant faire ma séance, je ne le préparais pas, ce qui diminue les résultats sur le long terme. Cette web app se chargera de générer des séances avec des exercices toujours différents afin d'optimiser le déchirement de la fibre musculaire. Accompagné d'un GIF animé, les exercices sont faciles à comprendre.",
+        "images": [
+            "portfolio/workoutGenerator.webp"
+        ],
+        "url": "ma-seance.fr",
+        "technologies": [
+            {
+                "class": "devicon-nextjs-plain colored",
+                "name": "NextJs"
+            },
+            {
+                "class": "devicon-typescript-plain colored",
+                "name": "TypeScript"
+            },
+            {
+                "class": "devicon-nodejs-plain colored",
+                "name": "NodeJs"
+            }
+        ]
+    },
+    {
+        "title": "Waletoo",
+        "startDate": "2021",
+        "description": "Waletoo est une application Web qui va vous aider à gérer vos finances. Simple et efficace. Après avoir créé un compte, il suffit de rentrer ses charges et ses revenus. L'application génère alors toute sorte de calculs et graphiques ainsi que des conseils pour gérer au mieux vos finances. ⚠️ projet en cours de développement ⚠️.",
+        "images": [
+            "portfolio/waletoo.webp"
+        ],
+        "url": "https://waletoo.herokuapp.com/",
+        "technologies": [
+            {
+                "class": "devicon-react-plain colored",
+                "name": "React"
+            },
+            {
+                "class": "devicon-tailwindcss-plain colored",
+                "name": "Tailwind"
+            },
+            {
+                "class": "devicon-nodejs-plain colored",
+                "name": "NodeJs"
+            }
+        ]
+    },
+    {
+        "title": "Vitassurance",
+        "startDate": "2021",
+        "description": "Site de courtage en assurances vous permettant de comparer rapidement les offres des différents assureurs. Une fois le formulaire rempli par le visiteur, ses informations sont transmises via une API à un CRM afin de gérer le dossier du nouveau client.",
+        "images": [
+            "portfolio/vitassurance.webp"
+        ],
+        "url": "https://vitassurance.fr/",
+        "technologies": [
+            {
+                "class": "devicon-html5-plain colored",
+                "name": "HTML"
+            },
+            {
+                "class": "devicon-css3-plain colored",
+                "name": "CSS"
+            },
+            {
+                "class": "devicon-nodejs-plain colored",
+                "name": "NodeJs"
+            }
+        ]
+    },
+    {
+        "title": "Web Calculator",
+        "startDate": "2020",
+        "description": "Projet réalisé dans le but d'approfondir mes connaissances JavaScript Vanilla. Vous pouvez choisir entre des calculs de base ou des calculs avancés. Apprentissage du light/night mode.",
+        "images": [
+            "portfolio/calculator.webp"
+        ],
+        "url": "https://brazillierjo.github.io/calculator/",
+        "technologies": [
+            {
+                "class": "devicon-html5-plain colored",
+                "name": "HTML"
+            },
+            {
+                "class": "devicon-css3-plain colored",
+                "name": "CSS"
+            },
+            {
+                "class": "devicon-javascript-plain colored",
+                "name": "Javascript"
+            }
+        ]
+    },
+    {
+        "title": "Markdown Previewer",
+        "startDate": "2020",
+        "description": "Markdown réalisé dans le but d'une formation React. Déployé sur GitHub Pages.",
+        "images": [
+            "portfolio/markdown.webp"
+        ],
+        "url": "https://brazillierjo.github.io/markdown/",
+        "technologies": [
+            {
+                "class": "devicon-html5-plain colored",
+                "name": "HTML"
+            },
+            {
+                "class": "devicon-css3-plain colored",
+                "name": "CSS"
+            },
+            {
+                "class": "devicon-javascript-plain colored",
+                "name": "Javascript"
+            }
+        ]
+    }
+]

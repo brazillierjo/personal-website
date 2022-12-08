@@ -12,7 +12,7 @@ export const Contact: React.FC<{}> = () => {
 
                 <p>Expérimenté et passionné, je serai heureux de vous aider à faire avancer votre projet.</p>
 
-                <div className="flex flex-wrap justify-evenly pt-12">
+                <div className="flex flex-wrap justify-evenly space-y-5 lg:space-y-0 pt-12">
                     <div className="bg-white flex flex-col space-y-5 text-center p-6 rounded-lg shadow-xl">
                         <p>Me contacter par mail</p>
                         <button className="text-white font-semibold px-6 py-2 bg-secondary-100 hover:bg-secondary-200 transition-all duration-100 rounded-full">
@@ -35,7 +35,7 @@ export const Contact: React.FC<{}> = () => {
 
             </div>
 
-            <img src={ContactBanner} className="h-[400px] mx-auto mt-12" alt="Bannière target" />
+            <img src={ContactBanner} className="lg:h-[400px] w-full lg:w-auto mx-auto mt-12" alt="Bannière target" />
 
         </div>
     )

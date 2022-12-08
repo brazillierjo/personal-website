@@ -8,6 +8,7 @@ export default function ScrollToTop() {
     };
 
     useEffect(() => {
+        window.scrollTo(0, 0);
         window.onscroll = function () {
             if (document.documentElement.scrollTop > 500) {
                 setButtonIsShown(true);
