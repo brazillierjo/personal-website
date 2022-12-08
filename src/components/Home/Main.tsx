@@ -1,16 +1,17 @@
 import { Link } from "react-router-dom";
+import { IS_MOBILE } from "../../helpers/AppWidth";
+import Avatar from "../../assets/png/avatar.png";
 import { TbBrandLinkedin } from "react-icons/tb";
 import { VscGithub } from "react-icons/vsc";
 import { BsArrowDownShort } from "react-icons/bs";
-import Avatar from "../../assets/png/avatar.png";
-import { AppWidth, IS_MOBILE } from "../../helpers/AppWidth";
+import { FaDev } from "react-icons/fa";
 
 export const Main: React.FC<{}> = () => {
     const handleScroll = () => {
         const aboutMe = document.getElementById("about-me");
         aboutMe?.scrollIntoView({ behavior: "smooth" });
     };
-    
+
     return (
         <div className='custom-h-screen relative mx-auto text-center'>
             <div className='absolute top-1/2 left-1/2 flex w-full -translate-y-1/2 -translate-x-1/2 flex-col space-y-3'>
@@ -23,11 +24,14 @@ export const Main: React.FC<{}> = () => {
                 </div>
 
                 <div className='flex justify-center gap-2'>
-                    <a href='https://www.linkedin.com/in/johan-r-brazillier-9b917a174/' target='_blank'>
+                    <a title="linkedin.com" href='https://www.linkedin.com/in/johan-r-brazillier-9b917a174/' target='_blank'>
                         <TbBrandLinkedin size={25} />
                     </a>
-                    <a href='https://github.com/brazillierjo' target='_blank'>
+                    <a title="github.com" href='https://github.com/brazillierjo' target='_blank'>
                         <VscGithub size={25} />
+                    </a>
+                    <a title='malt.fr' href='https://www.malt.fr/profile/brazillier' target='_blank'>
+                        <FaDev size={25} />
                     </a>
                 </div>
 

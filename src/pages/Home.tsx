@@ -1,3 +1,4 @@
+import { GoToContact } from "../components/Commons/GoToContact";
 import { AboutMe } from "../components/Home/AboutMe";
 import { Education } from "../components/Home/Education";
 import { Experiences } from "../components/Home/Experiences";
@@ -19,6 +20,7 @@ export const Home: React.FC<{}> = () => {
             </div>
             <Services />
             <Reviews />
+            <GoToContact />
         </>
     );
 };
