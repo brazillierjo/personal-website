@@ -1,6 +1,6 @@
-import React from 'react'
-import { BsArrowRightCircleFill } from "react-icons/bs"
-import { Link } from 'react-router-dom'
+import React from "react";
+import { BsArrowRightCircleFill } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 export const GoToContact: React.FC<{}> = () => {
     return (
@@ -19,4 +19,4 @@ export const GoToContact: React.FC<{}> = () => {
             </div>
         </div>
     );
-}
+};
