@@ -2,10 +2,8 @@
     {
         "title": "Piano",
         "startDate": "2022",
-        "description": "De l'enregistrement du son des clés jusqu'au design, on peut passer des heures sur ce piano sans avoir besoin d'en acheter un !",
-        "images": [
-            "portfolio/piano.webp"
-        ],
+        "description": "De l'enregistrement du son des clés jusqu'au design, ce projet m'a appris à gérer les évènements et les performances ! En plus, on peut y passer des heures sans avoir besoin d'en acheter un 🤓",
+        "images": ["piano"],
         "url": "https://brazillierjo.github.io/piano/",
         "technologies": [
             {
@@ -23,15 +21,11 @@
         ]
     },
     {
-        "title": "Sites WordPress",
-        "title2": "(cliquez pour faire défiler les maquettes)",
+        "title": "Générateur de séance de musculation [mobile-friendly only]",
         "startDate": "2022",
-        "description": "Création de sites WordPress avec builder de type Ave/Avada/Elementor.",
-        "images": [
-            "portfolio/concession.webp",
-            "portfolio/creche.webp"
-        ],
-        "url": "",
+        "description": "ma-sante.fr est un gérénateur de séance de musculation 💪. Cette web app se charge de générer des séances avec des exercices toujours différents afin d'optimiser les résultats. Accompagné d'un GIF animé, les exercices sont faciles à reproduire.",
+        "images": ["workoutGenerator"],
+        "url": "https://ma-seance.vercel.app/",
         "technologies": [
             {
                 "class": "devicon-nextjs-plain colored",
@@ -48,35 +42,10 @@
         ]
     },
     {
-        "title": "Générateur de séance de musculation",
-        "startDate": "2022",
-        "description": "ma-sante.fr est un gérénateur de séance de musculation. Je me suis rapidement rendu compte qu'en allant faire ma séance, je ne le préparais pas, ce qui diminue les résultats sur le long terme. Cette web app se chargera de générer des séances avec des exercices toujours différents afin d'optimiser le déchirement de la fibre musculaire. Accompagné d'un GIF animé, les exercices sont faciles à comprendre.",
-        "images": [
-            "portfolio/workoutGenerator.webp"
-        ],
-        "url": "ma-seance.fr",
-        "technologies": [
-            {
-                "class": "devicon-nextjs-plain colored",
-                "name": "NextJs"
-            },
-            {
-                "class": "devicon-typescript-plain colored",
-                "name": "TypeScript"
-            },
-            {
-                "class": "devicon-nodejs-plain colored",
-                "name": "NodeJs"
-            }
-        ]
-    },
-    {
-        "title": "Waletoo",
+        "title": "Waletoo [Refonte en cours, code source disponible sur GitHub]",
         "startDate": "2021",
-        "description": "Waletoo est une application Web qui va vous aider à gérer vos finances. Simple et efficace. Après avoir créé un compte, il suffit de rentrer ses charges et ses revenus. L'application génère alors toute sorte de calculs et graphiques ainsi que des conseils pour gérer au mieux vos finances. ⚠️ projet en cours de développement ⚠️.",
-        "images": [
-            "portfolio/waletoo.webp"
-        ],
+        "description": "Waletoo est une application Web qui va vous aider à gérer vos finances 💰. Simple et efficace. Après avoir créé un compte, il suffit de rentrer ses charges et ses revenus. L'application génère alors toute sorte de calculs et graphiques ainsi que des conseils pour gérer au mieux vos finances. ⚠️ projet en cours de développement ⚠️.",
+        "images": ["waletoo"],
         "url": "https://waletoo.herokuapp.com/",
         "technologies": [
             {
@@ -94,12 +63,31 @@
         ]
     },
     {
+        "title": "Sites WordPress",
+        "title2": "(cliquez pour faire défiler les maquettes)",
+        "startDate": "2022",
+        "description": "Création de sites WordPress 🎨. De la configuration du thème à la création des pages, je m'occupe de tout !",
+        "images": ["concession"],
+        "technologies": [
+            {
+                "class": "devicon-nextjs-plain colored",
+                "name": "NextJs"
+            },
+            {
+                "class": "devicon-typescript-plain colored",
+                "name": "TypeScript"
+            },
+            {
+                "class": "devicon-nodejs-plain colored",
+                "name": "NodeJs"
+            }
+        ]
+    },
+    {
         "title": "Vitassurance",
         "startDate": "2021",
         "description": "Site de courtage en assurances vous permettant de comparer rapidement les offres des différents assureurs. Une fois le formulaire rempli par le visiteur, ses informations sont transmises via une API à un CRM afin de gérer le dossier du nouveau client.",
-        "images": [
-            "portfolio/vitassurance.webp"
-        ],
+        "images": ["vitassurance"],
         "url": "https://vitassurance.fr/",
         "technologies": [
             {
@@ -120,9 +108,7 @@
         "title": "Web Calculator",
         "startDate": "2020",
         "description": "Projet réalisé dans le but d'approfondir mes connaissances JavaScript Vanilla. Vous pouvez choisir entre des calculs de base ou des calculs avancés. Apprentissage du light/night mode.",
-        "images": [
-            "portfolio/calculator.webp"
-        ],
+        "images": ["calculator"],
         "url": "https://brazillierjo.github.io/calculator/",
         "technologies": [
             {
@@ -143,9 +129,7 @@
         "title": "Markdown Previewer",
         "startDate": "2020",
         "description": "Markdown réalisé dans le but d'une formation React. Déployé sur GitHub Pages.",
-        "images": [
-            "portfolio/markdown.webp"
-        ],
+        "images": ["markdown"],
         "url": "https://brazillierjo.github.io/markdown/",
         "technologies": [
             {

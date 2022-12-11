@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 export const Services: React.FC<{}> = () => {
     return (
         <div className='pb-5'>
+            <h2 className='mb-5 w-fit border-b-2 border-secondary-200 pb-1 text-4xl font-bold'>Mes services</h2>
             <div className='grid gap-4 md:grid-cols-3'>
                 <div className='rounded-lg bg-green-500 p-5 text-center text-white'>
                     <img src='' alt='' />

@@ -12,7 +12,7 @@ export const AboutMe: React.FC<{}> = () => {
 
     return (
         <div id='about-me' className='py-4'>
-            <h2 className='pb-5 text-4xl font-bold'>À propos de moi</h2>
+            <h2 className='mb-5 w-fit border-b-2 border-secondary-200 pb-1 text-4xl font-bold'>À propos de moi</h2>
 
             <div className='flex w-full flex-wrap justify-between'>
                 <div className='w-full md:w-7/12'>

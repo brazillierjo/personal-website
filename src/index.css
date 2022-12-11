@@ -16,3 +16,7 @@ body {
 .custom-h-screen {
     height: calc(100vh - 56px);
 }
+
+.custom-box-shadow {
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.5);
+}
