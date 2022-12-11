@@ -6,10 +6,10 @@ export const MyTechnologies: React.FC<{}> = () => {
     const [technologies, setTechnologies] = React.useState<null | IMyTechs[]>(MyTech);
 
     return (
-        <div className='mx-auto flex items-center gap-4 pt-6'>
+        <div className='mx-auto flex flex-wrap items-center justify-center gap-4 pt-12'>
             {technologies?.map((tech, index) => (
                 <div key={index}>
-                    <img className='h-10 w-10' src={tech.icon} alt={tech.name} title={tech.name} />
+                    <i title={tech.name} className={`${tech.icon} text-[40px]`}></i>
                 </div>
             ))}
         </div>

@@ -1,62 +1,62 @@
 [
     {
         "name": "HTML",
-        "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
+        "icon": "devicon-html5-plain-wordmark colored"
     },
     {
         "name": "CSS",
-        "icon": "https://img.icons8.com/color/48/000000/css3.png"
+        "icon": "devicon-css3-plain-wordmark colored"
     },
     {
         "name": "SASS",
-        "icon": "https://img.icons8.com/color/48/000000/sass.png"
+        "icon": "devicon-sass-original colored"
     },
     {
         "name": "React",
-        "icon": "https://img.icons8.com/color/48/000000/react-native.png"
-    },
-    {
-        "name": "TypeScript",
-        "icon": "https://img.icons8.com/color/48/000000/typescript.png"
+        "icon": "devicon-react-original-wordmark colored"
     },
     {
         "name": "JavaScript",
-        "icon": "https://img.icons8.com/color/48/000000/javascript.png"
+        "icon": "devicon-javascript-plain colored"
     },
     {
-        "name": "Vite",
-        "icon": "https://img.icons8.com/color/48/000000/vite.png"
+        "name": "WordPress",
+        "icon": "devicon-wordpress-plain-wordmark colored"
+    },
+    {
+        "name": "TypeScript",
+        "icon": "devicon-typescript-plain colored"
     },
     {
         "name": "NextJS",
-        "icon": "https://img.icons8.com/color/48/000000/next-js.png"
+        "icon": "devicon-nextjs-plain colored"
     },
     {
         "name": "TailwindCSS",
-        "icon": "https://img.icons8.com/color/48/000000/tailwind-css.png"
+        "icon": "devicon-tailwindcss-original-wordmark colored"
     },
     {
         "name": "Bootstrap",
-        "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
+        "icon": "devicon-bootstrap-plain-wordmark colored"
     },
     {
         "name": "NodeJS",
-        "icon": "https://img.icons8.com/color/48/000000/nodejs.png"
+        "icon": "devicon-nodejs-plain colored"
     },
     {
         "name": "Express",
-        "icon": "https://img.icons8.com/color/48/000000/express.png"
+        "icon": "devicon-express-original colored"
     },
     {
         "name": "MongoDB",
-        "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
+        "icon": "devicon-mongodb-plain-wordmark colored"
     },
     {
         "name": "MySQL",
-        "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
+        "icon": "devicon-mysql-plain-wordmark colored"
     },
     {
         "name": "GitHub",
-        "icon": "https://img.icons8.com/color/48/000000/github--v1.png"
+        "icon": "devicon-github-original-wordmark colored"
     }
 ]
