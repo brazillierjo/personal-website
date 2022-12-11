@@ -5,6 +5,7 @@ import { TbBrandLinkedin } from "react-icons/tb";
 import { VscGithub } from "react-icons/vsc";
 import { BsArrowDownShort } from "react-icons/bs";
 import { FaDev } from "react-icons/fa";
+import { MyTechnologies } from "./MyTechnologies";
 
 export const Main: React.FC<{}> = () => {
     const handleScroll = () => {
@@ -24,10 +25,13 @@ export const Main: React.FC<{}> = () => {
                 </div>
 
                 <div className='flex justify-center gap-2'>
-                    <a title="linkedin.com" href='https://www.linkedin.com/in/johan-r-brazillier-9b917a174/' target='_blank'>
+                    <a
+                        title='linkedin.com'
+                        href='https://www.linkedin.com/in/johan-r-brazillier-9b917a174/'
+                        target='_blank'>
                         <TbBrandLinkedin size={25} />
                     </a>
-                    <a title="github.com" href='https://github.com/brazillierjo' target='_blank'>
+                    <a title='github.com' href='https://github.com/brazillierjo' target='_blank'>
                         <VscGithub size={25} />
                     </a>
                     <a title='malt.fr' href='https://www.malt.fr/profile/brazillier' target='_blank'>
@@ -40,7 +44,9 @@ export const Main: React.FC<{}> = () => {
                         M'embaucher
                     </button>
                 </Link>
+                <MyTechnologies />
             </div>
+
             {!IS_MOBILE && (
                 <div className='absolute bottom-5 left-1/2 -ml-[15px] transform animate-bounce hover:cursor-pointer'>
                     <BsArrowDownShort onClick={handleScroll} size={30} />
