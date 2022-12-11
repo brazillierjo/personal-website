@@ -4,7 +4,7 @@ export const Header: React.FC<{}> = () => {
     return (
         <div className='flex h-12 items-center justify-between'>
             <NavLink to='/' style={({ isActive }) => (isActive ? { borderBottom: "2px solid red" } : {})}>
-                <h2 className='text-4xl font-extrabold text-primary'>
+                <h2 className='text-xl font-extrabold text-primary lg:text-4xl'>
                     Johan<span className='text-secondary-100'>.</span>
                 </h2>
             </NavLink>

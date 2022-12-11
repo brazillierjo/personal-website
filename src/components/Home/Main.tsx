@@ -16,7 +16,7 @@ export const Main: React.FC<{}> = () => {
     return (
         <div className='custom-h-screen relative mx-auto text-center'>
             <div className='absolute top-1/2 left-1/2 flex w-full -translate-y-1/2 -translate-x-1/2 flex-col space-y-3'>
-                <img className='mx-auto mb-12 h-72' src={Avatar} alt='Personal avatar' />
+                <img className='mx-auto mb-12 hidden lg:block lg:h-72' src={Avatar} alt='Personal avatar' />
                 <h2 className='text-4xl font-bold'>RINCON BRAZILLIER Johan</h2>
 
                 <div>
