@@ -63,23 +63,27 @@
         ]
     },
     {
-        "title": "Sites WordPress",
-        "title2": "(cliquez pour faire défiler les maquettes)",
+        "title": "Mon assurance de prêt bancaire",
+        "startDate": "2022",
+        "description": "Mon assurance de prêt bancaire est un site de courtage en assurance de prêt immobilier. Il permet de comparer les offres des différents assureurs afin de trouver la meilleure assurance pour le client.",
+        "images": ["monassurancedepretbancaire"],
+        "url": "https://monassurancedepretbancaire.fr/",
+        "technologies": [
+            {
+                "class": "devicon-wordpress-plain-wordmark colored",
+                "name": "WordPress"
+            }
+        ]
+    },
+    {
+        "title": "Sites WordPress en tout genre",
         "startDate": "2022",
         "description": "Création de sites WordPress 🎨. De la configuration du thème à la création des pages, je m'occupe de tout !",
         "images": ["concession"],
         "technologies": [
             {
-                "class": "devicon-nextjs-plain colored",
-                "name": "NextJs"
-            },
-            {
-                "class": "devicon-typescript-plain colored",
-                "name": "TypeScript"
-            },
-            {
-                "class": "devicon-nodejs-plain colored",
-                "name": "NodeJs"
+                "class": "devicon-wordpress-plain-wordmark colored",
+                "name": "WordPress"
             }
         ]
     },
@@ -133,16 +137,16 @@
         "url": "https://brazillierjo.github.io/markdown/",
         "technologies": [
             {
+                "class": "devicon-react-plain colored",
+                "name": "React"
+            },
+            {
                 "class": "devicon-html5-plain colored",
                 "name": "HTML"
             },
             {
                 "class": "devicon-css3-plain colored",
                 "name": "CSS"
-            },
-            {
-                "class": "devicon-javascript-plain colored",
-                "name": "Javascript"
             }
         ]
     }

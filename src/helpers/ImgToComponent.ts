@@ -7,6 +7,7 @@ import piano from "../assets/webp/piano.webp";
 import vitassurance from "../assets/webp/vitassurance.webp";
 import waletoo from "../assets/webp/waletoo.webp";
 import workoutGenerator from "../assets/webp/workoutGenerator.webp";
+import monassurancedepretbancaire from "../assets/webp/monassurancedepretbancaire.webp";
 
 const ImgToComponent: any = {
     calculator,
@@ -14,6 +15,7 @@ const ImgToComponent: any = {
     creche,
     markdown,
     piano,
+    monassurancedepretbancaire,
     vitassurance,
     waletoo,
     workoutGenerator,
