@@ -8,6 +8,7 @@ import { Contact } from "./pages/Contact";
 import { Footer } from "./components/Commons/Footer";
 import "./index.css";
 import ScrollToTop from "./components/Commons/ScrollToTop";
+import MyParticles from "./components/Commons/Particles";
 
 const AppLayout = () => {
     return (
@@ -45,5 +46,6 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
             <RouterProvider router={router} />
             <ScrollToTop />
         </main>
+        <MyParticles />
     </React.StrictMode>
 );

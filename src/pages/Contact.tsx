@@ -34,7 +34,7 @@ export const Contact: React.FC<{}> = () => {
                         <img className='hidden rounded-lg lg:block' src={Mail} alt='Mail' />
                     </div>
 
-                    <div className='flex h-[130px] flex-wrap rounded-lg bg-white text-center shadow-xl lg:h-[230px]'>
+                    <div className='flex h-[130px] rounded-lg bg-white text-center shadow-xl lg:h-[230px]'>
                         <div className='flex flex-col justify-center space-y-5 p-6'>
                             <p>Me contacter via LinkedIn</p>
                             <button className='rounded-full bg-secondary-100 px-6 py-2 font-semibold text-white transition-all duration-100 hover:bg-secondary-200'>
