@@ -7,7 +7,7 @@ export const Reviews: React.FC<{}> = () => {
 
             <div className='mx-auto w-full rounded-xl bg-white p-6 text-center shadow-xl'>
                 <p>
-                    Retrouver mes remmandations et notes directement sur la plateforme{" "}
+                    Retrouver mes recommandations et notes directement sur la plateforme{" "}
                     <a
                         className='text-secondary-100 underline'
                         href='https://www.malt.fr/profile/brazillier?q=brazillier+johan'
