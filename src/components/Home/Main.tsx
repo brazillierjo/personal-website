@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { IS_MOBILE } from "../../helpers/AppWidth";
-import Avatar3 from "../../assets/jpg/avatar3.jpg";
+import Avatar3 from "../../assets/png/avatar3.png";
 import { TbBrandLinkedin } from "react-icons/tb";
 import { VscGithub } from "react-icons/vsc";
 import { BsArrowDownShort } from "react-icons/bs";
