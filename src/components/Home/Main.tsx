@@ -14,17 +14,17 @@ export const Main: React.FC<{}> = () => {
     };
 
     return (
-        <div className='md:custom-h-screen relative mx-auto h-fit text-center'>
-            <div className='top-1/2 left-1/2 flex w-full -translate-y-1/2 -translate-x-1/2 flex-col space-y-3 md:absolute'>
-                <div className='md:flex md:justify-center'>
-                    <div className='md:w-1/2'>
+        <div className='custom-h-screen relative my-10 mx-auto h-fit text-center lg:my-0'>
+            <div className='flex w-full flex-col space-y-3 lg:absolute lg:top-1/2 lg:left-1/2 lg:-translate-y-1/2 lg:-translate-x-1/2'>
+                <div className='mx-auto lg:flex lg:justify-center'>
+                    <div className='lg:w-1/2'>
                         <img
-                            className='mx-auto mb-5 h-[200px] rounded-full lg:h-[300px]'
+                            className='mx-auto mb-5 h-[200px] w-auto rounded-full lg:h-[300px]'
                             src={Avatar3}
                             alt='Personal avatar'
                         />
                     </div>
-                    <div className='my-auto flex flex-col space-y-3 md:w-1/2'>
+                    <div className='my-auto flex flex-col space-y-3 lg:w-1/2'>
                         <h2 className='text-4xl font-bold'>RINCON BRAZILLIER Johan</h2>
                         <div>
                             <p>Développeur front 👨‍💻</p>
