@@ -1,7 +1,5 @@
 import { Link } from "react-router-dom";
 import { IS_MOBILE } from "../../helpers/AppWidth";
-import Avatar from "../../assets/png/avatar.png";
-import Avatar2 from "../../assets/jpg/avatar2.jpg";
 import Avatar3 from "../../assets/jpg/avatar3.jpg";
 import { TbBrandLinkedin } from "react-icons/tb";
 import { VscGithub } from "react-icons/vsc";
