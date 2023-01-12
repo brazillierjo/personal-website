@@ -14,7 +14,7 @@ export const Main: React.FC<{}> = () => {
     };
 
     return (
-        <div className='custom-h-screen relative mx-auto text-center'>
+        <div className='md:custom-h-screen relative mx-auto h-fit text-center'>
             <div className='absolute top-1/2 left-1/2 flex w-full -translate-y-1/2 -translate-x-1/2 flex-col space-y-3'>
                 <div className='md:flex md:justify-center'>
                     <div className='md:w-1/2'>
