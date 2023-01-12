@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { IS_MOBILE } from "../../helpers/AppWidth";
-import Avatar3 from "../../assets/jpg/avatar3.jpg";
+import Avatar from "../../assets/png/avatar.png";
+// import Avatar3 from "../../assets/jpg/avatar3.jpg";
 import { TbBrandLinkedin } from "react-icons/tb";
 import { VscGithub } from "react-icons/vsc";
 import { BsArrowDownShort } from "react-icons/bs";
@@ -20,7 +21,7 @@ export const Main: React.FC<{}> = () => {
                     <div className='md:w-1/2'>
                         <img
                             className='mx-auto mb-5 h-[200px] rounded-full lg:h-[300px]'
-                            src={Avatar3}
+                            src={Avatar}
                             alt='Personal avatar'
                         />
                     </div>
