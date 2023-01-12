@@ -26,7 +26,7 @@ export const Main: React.FC<{}> = () => {
                             alt='Personal avatar'
                         />
                     </div>
-                    <div className='my-auto md:w-1/2'>
+                    <div className='my-auto flex flex-col space-y-3 md:w-1/2'>
                         <h2 className='text-4xl font-bold'>RINCON BRAZILLIER Johan</h2>
                         <div>
                             <p>Développeur front 👨‍💻</p>
