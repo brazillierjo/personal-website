@@ -1,5 +1,5 @@
 import { useState } from "react";
-import data from "../../data/aboutMe.json";
+import data from "../../data/fr/fr-aboutMe.json";
 import { HiChevronDown, HiChevronUp } from "react-icons/hi";
 import { RiCheckDoubleLine } from "react-icons/ri";
 

@@ -1,4 +1,4 @@
-import data from "../../data/experiences.json";
+import data from "../../data/fr/fr-experiences.json";
 import { MdWork } from "react-icons/md";
 import { IExperiences } from "../../Interfaces/IExperiences";
 

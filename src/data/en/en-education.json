@@ -1,0 +1,44 @@
+[
+    {
+        "company": "3WAcademy",
+        "title": "(BSc) Web and Mobile Applications Integration/Development",
+        "years": "2020 - 2021",
+        "mainTech": ["React", "NodeJS", "MySQL"],
+        "technologies": []
+    },
+    {
+        "company": "OpenClassrooms",
+        "title": "Web Developer - Level 5 RNCP Certification",
+        "years": "2020",
+        "mainTech": ["HTML", "CSS", "JavaScript", "MySQL", "Vue"],
+        "technologies": []
+    },
+    {
+        "company": "University of Toulon",
+        "title": "(BSc) E-commerce & Digital Marketing",
+        "years": "2016 - 2017",
+        "mainTech": [
+            "Team Management",
+            "Marketing",
+            "Digital Marketing",
+            "SEO",
+            "Search Engine Optimization",
+            "E-commerce"
+        ],
+        "technologies": []
+    },
+    {
+        "company": "Défi83 - Toulon",
+        "title": "(Associate's Degree) Business Unit Management",
+        "years": "2014 - 2016",
+        "mainTech": ["Team Management", "Marketing", "Digital Marketing"],
+        "technologies": []
+    },
+    {
+        "company": "Jean Aicard - Hyères",
+        "title": "Baccalaureate in Business Science & Technology",
+        "years": "2010 - 2012",
+        "mainTech": ["Accounting"],
+        "technologies": []
+    }
+]

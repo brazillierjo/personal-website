@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import data from "../data/projects.json";
+import data from "../data/fr/fr-projects.json";
 import { img } from "../helpers/ImgToComponent";
 import { IProjects } from "../Interfaces/IProjects";
 import { RxOpenInNewWindow } from "react-icons/rx";
@@ -41,7 +41,7 @@ export const Portfolio: React.FC<{}> = () => {
                                     {project.technologies.map((technology, index) => {
                                         return (
                                             <div
-                                                className='mr-2 flex h-fit w-fit items-center gap-2  rounded-full bg-gray-200 py-1 px-2 text-xs font-semibold text-gray-800'
+                                                className='mr-2 flex h-fit w-fit items-center gap-2  rounded-full bg-gray-200 px-2 py-1 text-xs font-semibold text-gray-800'
                                                 key={index}>
                                                 <i className={`${technology.class} text-[25px]`}></i>
                                                 <p>{technology.name}</p>

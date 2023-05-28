@@ -1,0 +1,157 @@
+[
+    {
+        "title": "Piano",
+        "startDate": "2022",
+        "description": "From recording the sound of the keys to design, this project taught me how to handle events and performance! Plus, you can spend hours on it without needing to buy one 🤓",
+        "images": ["piano"],
+        "url": "https://brazillierjo.github.io/piano/",
+        "technologies": [
+            {
+                "class": "devicon-html5-plain colored",
+                "name": "HTML"
+            },
+            {
+                "class": "devicon-css3-plain colored",
+                "name": "CSS"
+            },
+            {
+                "class": "devicon-javascript-plain colored",
+                "name": "JavaScript"
+            }
+        ]
+    },
+    {
+        "title": "Workout Session Generator [mobile-friendly only]",
+        "startDate": "2022",
+        "description": "ma-sante.fr is a workout session generator 💪. This web app generates sessions with different exercises to optimize results. Accompanied by an animated GIF, the exercises are easy to reproduce.",
+        "images": ["workoutGenerator"],
+        "url": "https://ma-seance.vercel.app/",
+        "technologies": [
+            {
+                "class": "devicon-nextjs-plain colored",
+                "name": "NextJs"
+            },
+            {
+                "class": "devicon-typescript-plain colored",
+                "name": "TypeScript"
+            },
+            {
+                "class": "devicon-nodejs-plain colored",
+                "name": "NodeJs"
+            }
+        ]
+    },
+    {
+        "title": "Waletoo [Undergoing redesign, source code available on GitHub]",
+        "startDate": "2021",
+        "description": "Waletoo is a web application that helps you manage your finances 💰. Simple and effective. After creating an account, you enter your expenses and income. The application then generates various calculations, charts, and provides advice to better manage your finances. ⚠️ Project currently under development ⚠️.",
+        "images": ["waletoo"],
+        "url": "https://waletoo.herokuapp.com/",
+        "technologies": [
+            {
+                "class": "devicon-react-plain colored",
+                "name": "React"
+            },
+            {
+                "class": "devicon-typescript-plain colored",
+                "name": "TypeScript"
+            },
+            {
+                "class": "devicon-tailwindcss-plain colored",
+                "name": "Tailwind"
+            },
+            {
+                "class": "devicon-nodejs-plain colored",
+                "name": "NodeJs"
+            }
+        ]
+    },
+    {
+        "title": "My Mortgage Insurance",
+        "startDate": "2022",
+        "description": "My Mortgage Insurance is an online mortgage insurance brokerage website. It allows users to compare offers from different insurers to find the best insurance for their needs.",
+        "images": ["monassurancedepretbancaire"],
+        "url": "https://monassurancedepretbancaire.fr/",
+        "technologies": [
+            {
+                "class": "devicon-wordpress-plain-wordmark colored",
+                "name": "WordPress"
+            }
+        ]
+    },
+    {
+        "title": "Various WordPress Websites",
+        "startDate": "2022",
+        "description": "Creation of WordPress websites 🎨. From theme configuration to page creation, I take care of everything!",
+        "images": ["concession"],
+        "technologies": [
+            {
+                "class": "devicon-wordpress-plain-wordmark colored",
+                "name": "WordPress"
+            }
+        ]
+    },
+    {
+        "title": "Vitassurance",
+        "startDate": "2021",
+        "description": "Insurance brokerage website that allows you to quickly compare offers from different insurers. Once the visitor fills out the form, their information is sent via an API to a CRM to manage the new client's file.",
+        "images": ["vitassurance"],
+        "url": "https://vitassurance.fr/",
+        "technologies": [
+            {
+                "class": "devicon-html5-plain colored",
+                "name": "HTML"
+            },
+            {
+                "class": "devicon-css3-plain colored",
+                "name": "CSS"
+            },
+            {
+                "class": "devicon-nodejs-plain colored",
+                "name": "NodeJs"
+            }
+        ]
+    },
+    {
+        "title": "Web Calculator",
+        "startDate": "2020",
+        "description": "Project carried out to deepen my knowledge of Vanilla JavaScript. You can choose between basic calculations or advanced calculations. Learning light/night mode.",
+        "images": ["calculator"],
+        "url": "https://brazillierjo.github.io/calculator/",
+        "technologies": [
+            {
+                "class": "devicon-html5-plain colored",
+                "name": "HTML"
+            },
+            {
+                "class": "devicon-css3-plain colored",
+                "name": "CSS"
+            },
+            {
+                "class": "devicon-javascript-plain colored",
+                "name": "JavaScript"
+            }
+        ]
+    },
+    {
+        "title": "Markdown Previewer",
+        "startDate": "2020",
+        "description": "Markdown project created for a React training. Deployed on GitHub Pages.",
+        "images": ["markdown"],
+        "url": "https://brazillierjo.github.io/markdown/",
+        "technologies": [
+            {
+                "class": "devicon-react-plain colored",
+                "name": "React"
+            },
+            {
+                "class": "devicon-html5-plain colored",
+                "name": "HTML"
+            },
+            {
+                "class": "devicon-css3-plain colored",
+                "name": "CSS"
+            }
+        ]
+    }
+]
