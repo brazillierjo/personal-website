@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import data from "../data/fr/fr-projects.json";
+import data from "../data/fr/projects.json";
 import { img } from "../helpers/ImgToComponent";
 import { IProjects } from "../Interfaces/IProjects";
 import { RxOpenInNewWindow } from "react-icons/rx";

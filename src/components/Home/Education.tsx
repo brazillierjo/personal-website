@@ -1,4 +1,4 @@
-import data from "../../data/fr/fr-education.json";
+import data from "../../data/fr/education.json";
 import { IEducation } from "../../Interfaces/IEducation";
 import { GiDiploma } from "react-icons/gi";
 

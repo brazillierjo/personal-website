@@ -1,14 +1,18 @@
 import { useState } from "react";
-import data from "../../data/fr/fr-aboutMe.json";
+import data from "../../data/fr/aboutMe.json";
 import { HiChevronDown, HiChevronUp } from "react-icons/hi";
 import { RiCheckDoubleLine } from "react-icons/ri";
+import { useLangData } from "../../hooks/useLangData";
 
 export const AboutMe: React.FC<{}> = () => {
+    const data = useLangData("aboutMe");
     const [showMoreAboutMe, setShowMoreAboutMe] = useState(false);
 
     const handleReadMore = () => {
         setShowMoreAboutMe(!showMoreAboutMe);
     };
+
+    if (!data) return <div>Erreur de chargement</div>;
 
     return (
         <div id='about-me' className='py-4'>
