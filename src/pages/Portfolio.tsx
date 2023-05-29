@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
-import data from "../data/fr/projects.json";
 import { img } from "../helpers/ImgToComponent";
-import { IProjects } from "../Interfaces/IProjects";
 import { RxOpenInNewWindow } from "react-icons/rx";
+import { useLangData } from "../hooks/useLangData";
+import { ProjectItem } from "../Interfaces/IFiles";
 
 export const Portfolio: React.FC<{}> = () => {
-    const [projects, setProjects] = React.useState<null | IProjects[]>(data);
+    const data = useLangData("projects") as ProjectItem[] | null;
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -20,25 +20,25 @@ export const Portfolio: React.FC<{}> = () => {
             </p>
 
             <div className='grid gap-12 md:grid-cols-2 lg:grid-cols-3'>
-                {projects &&
-                    projects.map((project, index) => {
+                {data &&
+                    data.map((item, index) => {
                         return (
                             <div
                                 className='flex h-full flex-col rounded-lg bg-white p-6 shadow-xl transition-all duration-150'
                                 key={index}>
-                                <a href={project.url} target='_blank'>
+                                <a href={item.url} target='_blank'>
                                     <div className='mb-6 flex flex-col space-y-4'>
-                                        {project.images.map((image, index) => img(index, image))}
+                                        {item.images.map((image, index) => img(index, image))}
                                     </div>
                                     <div className='mb-8'>
-                                        <h2 className='text-center text-xl font-bold '>{project.title}</h2>
-                                        <p className='text-right text-xs text-gray-500'>{project.startDate}</p>
+                                        <h2 className='text-center text-xl font-bold '>{item.title}</h2>
+                                        <p className='text-right text-xs text-gray-500'>{item.startDate}</p>
                                     </div>
-                                    <p className='text-justify'>{project.description}</p>
+                                    <p className='text-justify'>{item.description}</p>
                                 </a>
 
                                 <div className='mt-5 flex flex-wrap justify-center gap-2'>
-                                    {project.technologies.map((technology, index) => {
+                                    {item.technologies.map((technology, index) => {
                                         return (
                                             <div
                                                 className='mr-2 flex h-fit w-fit items-center gap-2  rounded-full bg-gray-200 px-2 py-1 text-xs font-semibold text-gray-800'
@@ -51,7 +51,7 @@ export const Portfolio: React.FC<{}> = () => {
                                 </div>
 
                                 <div className='mx-auto mt-auto'>
-                                    <a href={project.url} target='_blank'>
+                                    <a href={item.url} target='_blank'>
                                         <button className='mt-8 flex gap-1 rounded-full bg-secondary-100 px-5 py-2 font-bold text-white transition-all duration-150 hover:bg-secondary-200'>
                                             Voir le projet <RxOpenInNewWindow />
                                         </button>

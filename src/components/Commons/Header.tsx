@@ -50,7 +50,7 @@ export const Header: React.FC<{}> = () => {
                 </div>
             </div>
 
-            <div className='mt-2 flex justify-center gap-5 border-0 border-t-2 border-t-primary pt-2 lg:hidden'>
+            <div className='mt-2 flex justify-center gap-5 border-0 border-t border-t-primary pt-2 lg:hidden'>
                 <button
                     className={clsx(
                         lang === "en" &&

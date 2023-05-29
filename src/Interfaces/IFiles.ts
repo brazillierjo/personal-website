@@ -20,7 +20,7 @@ export type ExperienceItem = {
     technologies: string[];
 };
 
-export type Project = {
+export type ProjectItem = {
     title: string;
     startDate: string;
     description: string;
@@ -34,6 +34,6 @@ export type Project = {
 
 export interface IFiles {
     [key: string]: {
-        [lang: string]: (AboutMeItem | EducationItem | ExperienceItem | Project)[];
+        [lang: string]: (AboutMeItem | EducationItem | ExperienceItem | ProjectItem)[];
     };
 }
