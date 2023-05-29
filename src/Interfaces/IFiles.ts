@@ -34,7 +34,6 @@ export type Project = {
 
 export interface IFiles {
     [key: string]: {
-        fr: (AboutMeItem | EducationItem | ExperienceItem | Project)[];
-        en: (AboutMeItem | EducationItem | ExperienceItem | Project)[];
+        [lang: string]: (AboutMeItem | EducationItem | ExperienceItem | Project)[];
     };
 }

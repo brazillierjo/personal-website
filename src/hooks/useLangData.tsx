@@ -1,7 +1,7 @@
 import { useAtom } from "jotai";
 import { useEffect, useState } from "react";
 import { langAtom } from "../atoms";
-import { IFiles } from "../Interfaces/IFiles";
+import { AboutMeItem, EducationItem, ExperienceItem, IFiles, Project } from "../Interfaces/IFiles";
 
 import frAboutMe from "../data/fr/aboutMe.json";
 import enAboutMe from "../data/en/aboutMe.json";
@@ -12,11 +12,11 @@ import enExperience from "../data/en/experiences.json";
 import frProjects from "../data/fr/projects.json";
 import enProjects from "../data/en/projects.json";
 
-export const useLangData = (fileName: string) => {
+export const useLangData = (fileName: keyof IFiles) => {
     const [lang] = useAtom(langAtom);
-    const [data, setData] = useState<IFiles | null>(null);
+    const [data, setData] = useState<(AboutMeItem | EducationItem | ExperienceItem | Project)[] | null>(null);
 
-    const files: any = {
+    const files: IFiles = {
         aboutMe: {
             fr: frAboutMe,
             en: enAboutMe,

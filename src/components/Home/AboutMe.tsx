@@ -1,11 +1,11 @@
 import { useState } from "react";
-import data from "../../data/fr/aboutMe.json";
 import { HiChevronDown, HiChevronUp } from "react-icons/hi";
 import { RiCheckDoubleLine } from "react-icons/ri";
 import { useLangData } from "../../hooks/useLangData";
+import { AboutMeItem } from "../../Interfaces/IFiles";
 
 export const AboutMe: React.FC<{}> = () => {
-    const data = useLangData("aboutMe");
+    const data = useLangData("aboutMe") as AboutMeItem[] | null;
     const [showMoreAboutMe, setShowMoreAboutMe] = useState(false);
 
     const handleReadMore = () => {
