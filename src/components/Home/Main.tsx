@@ -1,21 +1,27 @@
+import Avatar3 from "../../assets/png/avatar3.png";
 import { Link } from "react-router-dom";
 import { IS_MOBILE } from "../../helpers/AppWidth";
-import Avatar3 from "../../assets/png/avatar3.png";
 import { TbBrandLinkedin } from "react-icons/tb";
 import { VscGithub } from "react-icons/vsc";
 import { BsArrowDownShort } from "react-icons/bs";
 import { FaDev } from "react-icons/fa";
 import { MyTechnologies } from "./MyTechnologies";
+import { useLangData } from "../../hooks/useLangData";
+import { Generics } from "../../Interfaces/IFiles";
 
 export const Main: React.FC<{}> = () => {
+    const generics = useLangData("generics") as Generics | null;
+
     const handleScroll = () => {
         const aboutMe = document.getElementById("about-me");
         aboutMe?.scrollIntoView({ behavior: "smooth" });
     };
 
+    if (!generics) return null;
+
     return (
-        <div className='custom-min-h-screen relative my-10 mx-auto h-fit text-center lg:my-0'>
-            <div className='flex w-full flex-col space-y-3 lg:absolute lg:top-1/2 lg:left-1/2 lg:-translate-y-1/2 lg:-translate-x-1/2'>
+        <div className='custom-min-h-screen relative mx-auto my-10 h-fit text-center lg:my-0'>
+            <div className='flex w-full flex-col space-y-3 lg:absolute lg:left-1/2 lg:top-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2'>
                 <div className='mx-auto lg:flex lg:justify-center'>
                     <div className='lg:w-1/2'>
                         <img
@@ -27,8 +33,8 @@ export const Main: React.FC<{}> = () => {
                     <div className='my-auto flex flex-col space-y-3 lg:w-1/2'>
                         <h2 className='text-4xl font-bold'>RINCON BRAZILLIER Johan</h2>
                         <div>
-                            <p>Développeur front 👨‍💻</p>
-                            <small className='italic text-gray-500'>React | TypeScript expert</small>
+                            <p>{generics.main.job}</p>
+                            <small className='italic text-gray-500'>{generics.main.infoJob}</small>
                         </div>
                         <div className='flex justify-center gap-2'>
                             <a
@@ -46,7 +52,7 @@ export const Main: React.FC<{}> = () => {
                         </div>
                         <Link to='/contact'>
                             <button className='mt-8 rounded-full bg-secondary-100 px-6 py-3 text-sm font-semibold text-white transition-all duration-150 hover:bg-secondary-200'>
-                                Me contacter
+                                {generics.buttons.contactMe}
                             </button>
                         </Link>
                     </div>

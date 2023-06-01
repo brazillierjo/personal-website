@@ -1,3 +1,24 @@
+export type Generics = {
+    buttons: {
+        contactMe: string;
+        readMore: string;
+        close: string;
+        goToProjects: string;
+    };
+    main: {
+        job: string;
+        infoJob: string;
+    };
+    aboutMe: {
+        title: string;
+        firstSkill: string;
+        secondSkill: string;
+        thirdSkill: string;
+        fourthSkill: string;
+        fifthSkill: string;
+    };
+};
+
 export type AboutMeItem = {
     isInReadMore: boolean;
     emoji: string;
@@ -34,6 +55,6 @@ export type ProjectItem = {
 
 export interface IFiles {
     [key: string]: {
-        [lang: string]: (AboutMeItem | EducationItem | ExperienceItem | ProjectItem)[];
+        [lang: string]: (AboutMeItem | EducationItem | ExperienceItem | ProjectItem)[] | Generics;
     };
 }

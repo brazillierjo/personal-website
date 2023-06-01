@@ -1,0 +1,20 @@
+{
+    "buttons": {
+        "contactMe": "Me contacter",
+        "readMore": "En savoir plus...",
+        "close": "Refermer",
+        "goToProjects": "Voir mes projets"
+    },
+    "main": {
+        "job": "Développeur front 👨‍💻",
+        "infoJob": "React | TypeScript expert"
+    },
+    "aboutMe": {
+        "title": "À propos de moi",
+        "firstSkill": "Dévelopement frontend",
+        "secondSkill": "Dévelopement backend",
+        "thirdSkill": "UX/UI",
+        "fourthSkill": "Référencement",
+        "fifthSkill": "Optimisation"
+    }
+}
