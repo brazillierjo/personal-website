@@ -1,26 +1,6 @@
 export type Generics = {
-    buttons: {
-        contactMe: string;
-        readMore: string;
-        close: string;
-        goToProjects: string;
-    };
-    main: {
-        job: string;
-        infoJob: string;
-    };
-    aboutMe: {
-        title: string;
-        firstSkill: string;
-        secondSkill: string;
-        thirdSkill: string;
-        fourthSkill: string;
-        fifthSkill: string;
-    };
-    experiences: {
-        title: string;
-        professionalPath: string;
-        scholarPath: string;
+    [key: string]: {
+        [key: string]: string;
     };
 };
 
@@ -58,8 +38,17 @@ export type ProjectItem = {
     }[];
 };
 
+export type ContactPage = {
+    title: string;
+    description: string;
+    description2: string;
+    linkedInContact: string;
+    mailContact: string;
+    maltContact: string;
+};
+
 export interface IFiles {
     [key: string]: {
-        [lang: string]: (AboutMeItem | EducationItem | ExperienceItem | ProjectItem)[] | Generics;
+        [lang: string]: (AboutMeItem | EducationItem | ExperienceItem | ProjectItem)[] | Generics | ContactPage;
     };
 }

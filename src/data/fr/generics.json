@@ -21,5 +21,18 @@
         "title": "Expériences & Diplômes",
         "professionalPath": "Mon parcours professionnel",
         "scholarPath": "Mon parcours scolaire"
+    },
+    "portfolio": {
+        "title": "Mes projets",
+        "subTitle": "⚠️ Ces projets sont mes projets personnels. Mes projets professionnels ne peuvent évidemment pas être affichés ici pour des raisons de droits."
+    },
+    "reviews": {
+        "title": "Avis",
+        "subTitle": "Retrouver mes recommandations et notes directement sur la plateforme"
+    },
+    "contactMe": {
+        "title": "Me contacter",
+        "subTitle": "Vous avez une question ? Vous souhaitez me contacter ?",
+        "subTitle2": "Ce sera un plaisir d'échanger avec vous !"
     }
 }

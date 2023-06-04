@@ -1,7 +1,15 @@
 import { useAtom } from "jotai";
 import { useEffect, useState } from "react";
 import { langAtom } from "../atoms";
-import { AboutMeItem, EducationItem, ExperienceItem, Generics, IFiles, ProjectItem } from "../Interfaces/IFiles";
+import {
+    AboutMeItem,
+    ContactPage,
+    EducationItem,
+    ExperienceItem,
+    Generics,
+    IFiles,
+    ProjectItem,
+} from "../Interfaces/IFiles";
 
 import frGenerics from "../data/fr/generics.json";
 import enGenerics from "../data/en/generics.json";
@@ -13,12 +21,14 @@ import frExperience from "../data/fr/experiences.json";
 import enExperience from "../data/en/experiences.json";
 import frProjects from "../data/fr/projects.json";
 import enProjects from "../data/en/projects.json";
+import frContact from "../data/fr/contact.json";
+import enContact from "../data/en/contact.json";
 
 export const useLangData = (fileName: keyof IFiles) => {
     const [lang] = useAtom(langAtom);
-    const [data, setData] = useState<(AboutMeItem | EducationItem | ExperienceItem | ProjectItem)[] | Generics | null>(
-        null
-    );
+    const [data, setData] = useState<
+        (AboutMeItem | EducationItem | ExperienceItem | ProjectItem)[] | Generics | ContactPage | null
+    >(null);
 
     const files: IFiles = {
         generics: {
@@ -40,6 +50,10 @@ export const useLangData = (fileName: keyof IFiles) => {
         projects: {
             fr: frProjects,
             en: enProjects,
+        },
+        contact: {
+            fr: frContact,
+            en: enContact,
         },
     };
 

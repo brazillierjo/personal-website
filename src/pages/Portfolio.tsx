@@ -2,22 +2,24 @@ import React, { useEffect } from "react";
 import { img } from "../helpers/ImgToComponent";
 import { RxOpenInNewWindow } from "react-icons/rx";
 import { useLangData } from "../hooks/useLangData";
-import { ProjectItem } from "../Interfaces/IFiles";
+import { Generics, ProjectItem } from "../Interfaces/IFiles";
 
 export const Portfolio: React.FC<{}> = () => {
     const data = useLangData("projects") as ProjectItem[] | null;
+    const generics = useLangData("generics") as Generics | null;
 
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
 
+    if (!data || !generics) return null;
+
     return (
         <div className='py-20'>
-            <h1 className='mb-2 w-fit border-b-2 border-secondary-200 text-2xl font-bold'>Mes projets</h1>
-            <p className='mb-8 text-sm text-gray-500'>
-                ⚠️ Ces projets sont mes projets personnels. Mes projets professionnels ne peuvent évidemment pas être
-                affichés ici pour des raisons de droits.
-            </p>
+            <h1 className='mb-2 w-fit border-b-2 border-secondary-200 text-2xl font-bold'>
+                {generics.portfolio.title}
+            </h1>
+            <p className='mb-8 text-sm text-gray-500'>{generics.portfolio.subTitle}</p>
 
             <div className='grid gap-12 md:grid-cols-2 lg:grid-cols-3'>
                 {data &&

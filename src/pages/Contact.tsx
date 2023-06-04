@@ -3,28 +3,31 @@ import ContactBanner from "../assets/png/contact.png";
 import Malt from "../assets/png/maltLogo.png";
 import Linkedin from "../assets/png/linkedin.png";
 import Mail from "../assets/png/mail.png";
+import { useLangData } from "../hooks/useLangData";
+import { ContactPage } from "../Interfaces/IFiles";
 
 export const Contact: React.FC<{}> = () => {
+    const data = useLangData("contact") as ContactPage | null;
+
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
 
+    if (!data) return null;
+
     return (
         <div className='py-20'>
             <div className='flex flex-col space-y-5 px-5'>
-                <h1 className='text-3xl font-bold'>Contact</h1>
+                <h1 className='text-3xl font-bold'>{data.title}</h1>
 
-                <p>
-                    Si vous souhaitez me contacter pour discuter d'un projet de développement ou obtenir de plus amples
-                    informations sur mes services, veuillez me contacter via l'un des services ci-dessous.
-                </p>
+                <p>{data.description}</p>
 
-                <p>Expérimenté et passionné, je serai heureux de vous aider à faire avancer votre projet.</p>
+                <p>{data.description2}</p>
 
                 <div className='flex flex-wrap justify-evenly gap-10 pt-12'>
                     <div className='flex h-[130px] rounded-lg bg-white text-center shadow-xl lg:h-[180px]'>
                         <div className='flex flex-col justify-center space-y-5 p-6'>
-                            <p>Me contacter par mail</p>
+                            <p>{data.mailContact}</p>
                             <button className='rounded-full bg-secondary-100 px-6 py-2 font-semibold text-white transition-all duration-100 hover:bg-secondary-200'>
                                 <a href='mailto:j.brazillier@gmail.com' target='_blank'>
                                     j.brazillier@gmail.com
@@ -36,7 +39,7 @@ export const Contact: React.FC<{}> = () => {
 
                     <div className='flex h-[130px] rounded-lg bg-white text-center shadow-xl lg:h-[180px]'>
                         <div className='flex flex-col justify-center space-y-5 p-6'>
-                            <p>Me contacter via LinkedIn</p>
+                            <p>{data.linkedInContact}</p>
                             <button className='rounded-full bg-secondary-100 px-6 py-2 font-semibold text-white transition-all duration-100 hover:bg-secondary-200'>
                                 <a href='https://www.linkedin.com/in/johan-r-brazillier-9b917a174/' target='_blank'>
                                     linkedin.fr
@@ -48,7 +51,7 @@ export const Contact: React.FC<{}> = () => {
 
                     <div className='flex h-[130px] rounded-lg bg-white text-center shadow-xl lg:h-[180px]'>
                         <div className='flex flex-col justify-center space-y-5 p-6'>
-                            <p>Me contacter via Malt</p>
+                            <p>{data.maltContact}</p>
                             <button className='rounded-full bg-secondary-100 px-6 py-2 font-semibold text-white transition-all duration-100 hover:bg-secondary-200'>
                                 <a href='https://www.malt.fr/profile/brazillier' target='_blank'>
                                     malt.fr

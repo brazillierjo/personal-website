@@ -21,5 +21,18 @@
         "title": "Experiences & Educations",
         "professionalPath": "My professionnal career",
         "scholarPath": "My scholar career"
+    },
+    "portfolio": {
+        "title": "Portfolio",
+        "subTitle": "⚠️ These projects are my personal projects. My professional projects obviously cannot be displayed here for legal reasons."
+    },
+    "reviews": {
+        "title": "Reviews",
+        "subTitle": "Find my recommendations and ratings directly on the platform"
+    },
+    "contactMe": {
+        "title": "Contact me",
+        "subTitle": "You want to contact me ?",
+        "subTitle2": "It would be a pleasure to answer you !"
     }
 }
