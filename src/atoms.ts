@@ -1,5 +1,6 @@
 import { atom } from "jotai";
 
-export const langAtom = atom<"fr" | "en">("fr");
+const browserLang = navigator.language.split("-")[0];
+export const langAtom = atom<"fr" | "en">(browserLang);
 
-export const isUnderConstructionAtom = atom<boolean>(true);
+export const isUnderConstructionAtom = atom<boolean>(false);

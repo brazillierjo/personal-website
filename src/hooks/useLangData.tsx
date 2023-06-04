@@ -25,7 +25,7 @@ import frContact from "../data/fr/contact.json";
 import enContact from "../data/en/contact.json";
 
 export const useLangData = (fileName: keyof IFiles) => {
-    const [lang] = useAtom(langAtom);
+    const [lang] = useAtom(langAtom ?? "fr");
     const [data, setData] = useState<
         (AboutMeItem | EducationItem | ExperienceItem | ProjectItem)[] | Generics | ContactPage | null
     >(null);

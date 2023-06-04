@@ -24,6 +24,7 @@ export const Header: React.FC<{}> = () => {
                         onClick={() => setLang("en")}>
                         English
                     </button>
+                    |
                     <button
                         className={clsx(
                             lang === "fr" &&

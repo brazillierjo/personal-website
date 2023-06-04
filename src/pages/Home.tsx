@@ -6,7 +6,6 @@ import { Experiences } from "../components/Home/Experiences";
 import { GoToProjects } from "../components/Home/GoToProjects";
 import { Main } from "../components/Home/Main";
 import { Reviews } from "../components/Home/Reviews";
-import { Services } from "../components/Home/Services";
 import { useLangData } from "../hooks/useLangData";
 import { Generics } from "../Interfaces/IFiles";
 
@@ -24,7 +23,7 @@ export const Home: React.FC<{}> = () => {
             <Main />
             <AboutMe />
             <GoToProjects />
-            <div className='py-20'>
+            <div className='pt-20'>
                 <h2 className='mb-5 w-fit border-b-2 border-secondary-200 pb-1 text-4xl font-bold'>
                     {generics.experiences.title}
                 </h2>
@@ -33,7 +32,6 @@ export const Home: React.FC<{}> = () => {
                     <Education />
                 </div>
             </div>
-            <Services />
             <Reviews />
             <GoToContact />
         </>
