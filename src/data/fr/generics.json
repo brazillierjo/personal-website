@@ -16,5 +16,10 @@
         "thirdSkill": "UX/UI",
         "fourthSkill": "Référencement",
         "fifthSkill": "Optimisation"
+    },
+    "experiences": {
+        "title": "Expériences & Diplômes",
+        "professionalPath": "Mon parcours professionnel",
+        "scholarPath": "Mon parcours scolaire"
     }
 }

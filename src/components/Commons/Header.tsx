@@ -30,7 +30,7 @@ export const Header: React.FC<{}> = () => {
                                 "border-b-2 border-secondary-100 text-secondary-100 transition-all duration-100"
                         )}
                         onClick={() => setLang("fr")}>
-                        French
+                        Français
                     </button>
                 </div>
 
@@ -65,7 +65,7 @@ export const Header: React.FC<{}> = () => {
                             "border-b-2 border-secondary-100 text-secondary-100 transition-all duration-100"
                     )}
                     onClick={() => setLang("fr")}>
-                    French
+                    Français
                 </button>
             </div>
         </>

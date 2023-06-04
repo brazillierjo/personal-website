@@ -1,13 +1,16 @@
 import { GiDiploma } from "react-icons/gi";
-import { EducationItem } from "../../Interfaces/IFiles";
+import { EducationItem, Generics } from "../../Interfaces/IFiles";
 import { useLangData } from "../../hooks/useLangData";
 
 export const Education: React.FC<{}> = () => {
     const data = useLangData("education") as EducationItem[] | null;
+    const generics = useLangData("generics") as Generics | null;
+
+    if (!data || !generics) return null;
 
     return (
         <div className='w-full rounded-xl bg-white p-6'>
-            <h3 className='mb-5 text-xl font-semibold'>Mon parcours scolaire</h3>
+            <h3 className='mb-5 text-xl font-semibold'>{generics.experiences.scholarPath}</h3>
 
             <div>
                 {data &&

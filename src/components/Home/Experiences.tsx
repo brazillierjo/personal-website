@@ -1,13 +1,16 @@
 import { MdWork } from "react-icons/md";
 import { useLangData } from "../../hooks/useLangData";
-import { ExperienceItem } from "../../Interfaces/IFiles";
+import { ExperienceItem, Generics } from "../../Interfaces/IFiles";
 
 export const Experiences = () => {
     const data = useLangData("experiences") as ExperienceItem[] | null;
+    const generics = useLangData("generics") as Generics | null;
+
+    if (!data || !generics) return null;
 
     return (
         <div className='w-full rounded-xl bg-white p-6'>
-            <h3 className='mb-5 text-xl font-semibold'>Mon parcours professionnel</h3>
+            <h3 className='mb-5 text-xl font-semibold'>{generics.experiences.professionalPath}</h3>
 
             {data &&
                 data.map((experience: ExperienceItem) => (

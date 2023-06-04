@@ -16,5 +16,10 @@
         "thirdSkill": "UX/UI",
         "fourthSkill": "SEO",
         "fifthSkill": "Optimization"
+    },
+    "experiences": {
+        "title": "Experiences & Educations",
+        "professionalPath": "My professionnal career",
+        "scholarPath": "My scholar career"
     }
 }

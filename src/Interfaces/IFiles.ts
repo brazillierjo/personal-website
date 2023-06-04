@@ -17,6 +17,11 @@ export type Generics = {
         fourthSkill: string;
         fifthSkill: string;
     };
+    experiences: {
+        title: string;
+        professionalPath: string;
+        scholarPath: string;
+    };
 };
 
 export type AboutMeItem = {
