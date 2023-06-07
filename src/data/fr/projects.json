@@ -46,7 +46,7 @@
         "startDate": "2021",
         "description": "Waletoo est une application Web qui va vous aider à gérer vos finances 💰. Simple et efficace. Après avoir créé un compte, il suffit de rentrer ses charges et ses revenus. L'application génère alors toute sorte de calculs et graphiques ainsi que des conseils pour gérer au mieux vos finances. ⚠️ projet en cours de développement ⚠️.",
         "images": ["waletoo"],
-        "url": "https://waletoo.herokuapp.com/",
+        "url": "https://waletoo-frontend.vercel.app/",
         "technologies": [
             {
                 "class": "devicon-react-plain colored",
