@@ -52,13 +52,15 @@ export const Portfolio: React.FC<{}> = () => {
                                     })}
                                 </div>
 
-                                <div className='mx-auto mt-auto'>
-                                    <a href={item.url} target='_blank'>
-                                        <button className='mt-8 flex gap-1 rounded-full bg-secondary-100 px-5 py-2 font-bold text-white transition-all duration-150 hover:bg-secondary-200'>
-                                            Voir le projet <RxOpenInNewWindow />
-                                        </button>
-                                    </a>
-                                </div>
+                                {item.url && (
+                                    <div className='mx-auto mt-auto'>
+                                        <a href={item.url} target='_blank'>
+                                            <button className='mt-8 flex gap-1 rounded-full bg-secondary-100 px-5 py-2 font-bold text-white transition-all duration-150 hover:bg-secondary-200'>
+                                                {generics.buttons.seeProject} <RxOpenInNewWindow />
+                                            </button>
+                                        </a>
+                                    </div>
+                                )}
                             </div>
                         );
                     })}

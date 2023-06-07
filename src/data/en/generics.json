@@ -3,7 +3,8 @@
         "contactMe": "Contact me",
         "readMore": "Read more...",
         "close": "Close",
-        "goToProjects": "See my projects"
+        "goToProjects": "See my projects",
+        "seeProject": "See the project"
     },
     "main": {
         "job": "Front-end Web developer 👨‍💻",

@@ -1,22 +1,26 @@
 [
     {
-        "title": "Piano",
-        "startDate": "2022",
-        "description": "De l'enregistrement du son des clés jusqu'au design, ce projet m'a appris à gérer les évènements et les performances ! En plus, on peut y passer des heures sans avoir besoin d'en acheter un 🤓",
-        "images": ["piano"],
-        "url": "https://brazillierjo.github.io/piano/",
+        "title": "Waletoo [Refonte en cours, code source disponible sur GitHub]",
+        "startDate": "2021",
+        "description": "Waletoo est une application Web qui va vous aider à gérer vos finances 💰. Simple et efficace. Après avoir créé un compte, il suffit de rentrer ses charges et ses revenus. L'application génère alors toute sorte de calculs et graphiques ainsi que des conseils pour gérer au mieux vos finances. ⚠️ projet en cours de développement ⚠️.",
+        "images": ["waletoo"],
+        "url": "https://waletoo-frontend.vercel.app/",
         "technologies": [
             {
-                "class": "devicon-html5-plain colored",
-                "name": "HTML"
+                "class": "devicon-react-plain colored",
+                "name": "React"
             },
             {
-                "class": "devicon-css3-plain colored",
-                "name": "CSS"
+                "class": "devicon-typescript-plain colored",
+                "name": "TypeScript"
             },
             {
-                "class": "devicon-javascript-plain colored",
-                "name": "JavaScript"
+                "class": "devicon-tailwindcss-plain colored",
+                "name": "Tailwind"
+            },
+            {
+                "class": "devicon-nodejs-plain colored",
+                "name": "NodeJs"
             }
         ]
     },
@@ -42,27 +46,23 @@
         ]
     },
     {
-        "title": "Waletoo [Refonte en cours, code source disponible sur GitHub]",
-        "startDate": "2021",
-        "description": "Waletoo est une application Web qui va vous aider à gérer vos finances 💰. Simple et efficace. Après avoir créé un compte, il suffit de rentrer ses charges et ses revenus. L'application génère alors toute sorte de calculs et graphiques ainsi que des conseils pour gérer au mieux vos finances. ⚠️ projet en cours de développement ⚠️.",
-        "images": ["waletoo"],
-        "url": "https://waletoo-frontend.vercel.app/",
+        "title": "Piano",
+        "startDate": "2022",
+        "description": "De l'enregistrement du son des clés jusqu'au design, ce projet m'a appris à gérer les évènements et les performances ! En plus, on peut y passer des heures sans avoir besoin d'en acheter un 🤓",
+        "images": ["piano"],
+        "url": "https://brazillierjo.github.io/piano/",
         "technologies": [
             {
-                "class": "devicon-react-plain colored",
-                "name": "React"
+                "class": "devicon-html5-plain colored",
+                "name": "HTML"
             },
             {
-                "class": "devicon-typescript-plain colored",
-                "name": "TypeScript"
+                "class": "devicon-css3-plain colored",
+                "name": "CSS"
             },
             {
-                "class": "devicon-tailwindcss-plain colored",
-                "name": "Tailwind"
-            },
-            {
-                "class": "devicon-nodejs-plain colored",
-                "name": "NodeJs"
+                "class": "devicon-javascript-plain colored",
+                "name": "JavaScript"
             }
         ]
     },

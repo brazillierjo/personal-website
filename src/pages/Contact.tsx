@@ -24,8 +24,9 @@ export const Contact: React.FC<{}> = () => {
 
                 <p>{data.description2}</p>
 
-                <div className='flex flex-wrap justify-evenly gap-10 pt-12'>
-                    <div className='flex h-[130px] rounded-lg bg-white text-center shadow-xl lg:h-[180px]'>
+                <div className='flex flex-wrap justify-evenly gap-5 pt-12'>
+                    <div className='flex h-[120px] rounded-lg bg-white text-center shadow-xl'>
+                        <img className='hidden rounded-lg lg:block' src={Mail} alt='Mail' />
                         <div className='flex flex-col justify-center space-y-5 p-6'>
                             <p>{data.mailContact}</p>
                             <button className='rounded-full bg-secondary-100 px-6 py-2 font-semibold text-white transition-all duration-100 hover:bg-secondary-200'>
@@ -34,10 +35,10 @@ export const Contact: React.FC<{}> = () => {
                                 </a>
                             </button>
                         </div>
-                        <img className='hidden rounded-lg lg:block' src={Mail} alt='Mail' />
                     </div>
 
-                    <div className='flex h-[130px] rounded-lg bg-white text-center shadow-xl lg:h-[180px]'>
+                    <div className='flex h-[120px] rounded-lg bg-white text-center shadow-xl'>
+                        <img className='hidden rounded-lg lg:block' src={Linkedin} alt='LinkedIn' />
                         <div className='flex flex-col justify-center space-y-5 p-6'>
                             <p>{data.linkedInContact}</p>
                             <button className='rounded-full bg-secondary-100 px-6 py-2 font-semibold text-white transition-all duration-100 hover:bg-secondary-200'>
@@ -46,10 +47,10 @@ export const Contact: React.FC<{}> = () => {
                                 </a>
                             </button>
                         </div>
-                        <img className='hidden rounded-lg lg:block' src={Linkedin} alt='LinkedIn' />
                     </div>
 
-                    <div className='flex h-[130px] rounded-lg bg-white text-center shadow-xl lg:h-[180px]'>
+                    <div className='flex h-[120px] rounded-lg bg-white text-center shadow-xl'>
+                        <img className='hidden rounded-lg lg:block' src={Malt} alt='Malt' />
                         <div className='flex flex-col justify-center space-y-5 p-6'>
                             <p>{data.maltContact}</p>
                             <button className='rounded-full bg-secondary-100 px-6 py-2 font-semibold text-white transition-all duration-100 hover:bg-secondary-200'>
@@ -58,7 +59,6 @@ export const Contact: React.FC<{}> = () => {
                                 </a>
                             </button>
                         </div>
-                        <img className='hidden rounded-lg lg:block' src={Malt} alt='Malt' />
                     </div>
                 </div>
             </div>
