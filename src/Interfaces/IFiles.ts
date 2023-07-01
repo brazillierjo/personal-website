@@ -22,8 +22,7 @@ export type ExperienceItem = {
     company: string;
     title: string;
     years: string;
-    mainTech: string[];
-    technologies: string[];
+    technologies: string[] | null;
 };
 
 export type ProjectItem = {

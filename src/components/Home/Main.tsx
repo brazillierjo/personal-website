@@ -28,6 +28,7 @@ export const Main: React.FC<{}> = () => {
                             className='mx-auto mb-5 h-[200px] w-auto rounded-full lg:h-[300px]'
                             src={Avatar3}
                             alt='Personal avatar'
+                            loading='lazy'
                         />
                     </div>
                     <div className='my-auto flex flex-col space-y-3 lg:w-1/2'>

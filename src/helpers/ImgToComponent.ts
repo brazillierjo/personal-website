@@ -22,7 +22,7 @@ const ImgToComponent: any = {
 };
 
 export const img = (key: number, image: string) => {
-    const element = createElement("img", { key, src: ImgToComponent[image], className: "rounded-lg" });
+    const element = createElement("img", { key, src: ImgToComponent[image], className: "rounded-lg", loading: "lazy" });
 
     return element;
 };

@@ -14,15 +14,32 @@ export const Experiences = () => {
 
             {data &&
                 data.map((experience: ExperienceItem) => (
-                    <div className='relative flex gap-3 py-3' key={experience.company}>
-                        <MdWork className='text-secondary-200' size={20} />
-                        <div className='absolute left-2 top-10 h-[60%] w-[2px] bg-gray-300' />
-                        <div>
-                            <p className='text-gray-500'>{experience.years}</p>
-                            <h2>{experience.title}</h2>
-                            <h3 className='text-gray-500'>{experience.company}</h3>
+                    <>
+                        <div className='relative flex gap-3 py-3' key={experience.company}>
+                            <MdWork className='text-secondary-200' size={20} />
+                            <div className='absolute left-2 top-10 h-[60%] w-[2px] bg-gray-300' />
+
+                            <div className='grid grid-cols-2 w-full'>
+                                <div>
+                                    <p className='text-gray-500'>{experience.years}</p>
+                                    <h2>{experience.title}</h2>
+                                    <h3 className='text-gray-500'>{experience.company}</h3>
+
+                                    <div>
+                                        {experience.technologies && (
+                                            <ul>
+                                                {experience.technologies.map((technology: string) => (
+                                                    <li key={technology} className='text-gray-500 text-xs'>
+                                                        ↪ {technology}
+                                                    </li>
+                                                ))}
+                                            </ul>
+                                        )}
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
+                    </>
                 ))}
         </div>
     );
