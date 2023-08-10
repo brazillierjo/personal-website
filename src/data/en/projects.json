@@ -1,8 +1,8 @@
 [
     {
-        "title": "Waletoo [Undergoing redesign, source code available on GitHub]",
+        "title": "Waletoo",
         "startDate": "2021",
-        "description": "Waletoo is a web application that helps you manage your finances 💰. Simple and effective. After creating an account, you enter your expenses and income. The application then generates various calculations, charts, and provides advice to better manage your finances. ⚠️ Project currently under development ⚠️.",
+        "description": "Waletoo is a web application that helps you manage your finances 💰. Simple and effective. After creating an account, you enter your expenses and income. The application then generates various calculations, charts, and provides advice to better manage your finances.",
         "images": ["waletoo"],
         "url": "https://waletoo-frontend.vercel.app/",
         "technologies": [
