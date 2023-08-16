@@ -1,6 +1,6 @@
 import { MdWork } from "react-icons/md";
-import { useLangData } from "../../hooks/useLangData";
-import { ExperienceItem, Generics } from "../../Interfaces/IFiles";
+import { useLangData } from "../hooks/useLangData";
+import { ExperienceItem, Generics } from "../Interfaces/IFiles";
 
 export const Experiences = () => {
     const data = useLangData("experiences") as ExperienceItem[] | null;

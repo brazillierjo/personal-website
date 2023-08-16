@@ -15,10 +15,9 @@ export const Portfolio: React.FC<{}> = () => {
     if (!data || !generics) return null;
 
     return (
-        <div className='py-20'>
-            <h1 className='mb-2 w-fit border-b-2 border-secondary-200 text-2xl font-bold'>
-                {generics.portfolio.title}
-            </h1>
+        <div id='portfolio' className='py-20'>
+            <h2 className='mb-5 w-fit pb-1 text-3xl font-bold'>{generics.portfolio.title}</h2>
+
             <p className='mb-8 text-sm text-gray-500'>{generics.portfolio.subTitle}</p>
 
             <div className='grid gap-12 md:grid-cols-2 lg:grid-cols-3'>

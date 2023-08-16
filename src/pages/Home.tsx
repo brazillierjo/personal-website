@@ -1,13 +1,12 @@
 import { useEffect } from "react";
-import { GoToContact } from "../components/Commons/GoToContact";
-import { AboutMe } from "../components/Home/AboutMe";
-import { Education } from "../components/Home/Education";
-import { Experiences } from "../components/Home/Experiences";
-import { GoToProjects } from "../components/Home/GoToProjects";
-import { Main } from "../components/Home/Main";
-import { Reviews } from "../components/Home/Reviews";
+import { Contact } from "../components/Commons/Contact";
+import { Presentation } from "../components/Presentation";
 import { useLangData } from "../hooks/useLangData";
 import { Generics } from "../Interfaces/IFiles";
+import { Portfolio } from "../components/Portfolio";
+import { AboutMe } from "../components/AboutMe";
+import { Experiences } from "../components/Experiences";
+import { Education } from "../components/Education";
 
 export const Home: React.FC<{}> = () => {
     const generics = useLangData("generics") as Generics | null;
@@ -20,20 +19,17 @@ export const Home: React.FC<{}> = () => {
 
     return (
         <>
-            <Main />
+            <Presentation />
             <AboutMe />
-            <GoToProjects />
-            <div className='pt-20'>
-                <h2 className='mb-5 w-fit border-b-2 border-secondary-200 pb-1 text-4xl font-bold'>
-                    {generics.experiences.title}
-                </h2>
+            <Portfolio />
+            <div id='experiences-and-educations' className='py-20'>
+                <h2 className='mb-5 w-fit pb-1 text-3xl font-bold'>{generics.experiences.title}</h2>
                 <div className='grid gap-10 md:grid-cols-2 md:justify-between'>
                     <Experiences />
                     <Education />
                 </div>
             </div>
-            <Reviews />
-            <GoToContact />
+            <Contact />
         </>
     );
 };

@@ -7,8 +7,8 @@
         "seeProject": "Voir le projet"
     },
     "main": {
-        "job": "Développeur front 👨‍💻",
-        "infoJob": "React | TypeScript expert"
+        "firstLine": "Bonjour 👋",
+        "secondLine": "Je suis Brazillier Johan - Développeur front-end 👨‍💻"
     },
     "aboutMe": {
         "title": "À propos de moi",
@@ -27,13 +27,9 @@
         "title": "Mes projets",
         "subTitle": "⚠️ Ces projets sont mes projets personnels. Mes projets professionnels ne peuvent évidemment pas être affichés ici pour des raisons de droits."
     },
-    "reviews": {
-        "title": "Avis",
-        "subTitle": "Retrouver mes recommandations et notes directement sur la plateforme"
-    },
     "contactMe": {
-        "title": "Me contacter",
-        "subTitle": "Vous avez une question ? Vous souhaitez me contacter ?",
-        "subTitle2": "Ce sera un plaisir d'échanger avec vous !"
+        "title": "Contactez-moi",
+        "subTitle": "Travaillons ensemble !",
+        "button": "Prendre rendez-vous"
     }
 }

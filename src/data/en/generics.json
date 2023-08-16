@@ -7,8 +7,8 @@
         "seeProject": "See the project"
     },
     "main": {
-        "job": "Front-end Web developer 👨‍💻",
-        "infoJob": "React | TypeScript expert"
+        "firstLine": "Hello 👋",
+        "secondLine": "I'm Brazillier Johan - curious developer based in South of France."
     },
     "aboutMe": {
         "title": "About me",
@@ -27,13 +27,9 @@
         "title": "Portfolio",
         "subTitle": "⚠️ These projects are my personal projects. My professional projects obviously cannot be displayed here for legal reasons."
     },
-    "reviews": {
-        "title": "Reviews",
-        "subTitle": "Find my recommendations and ratings directly on the platform"
-    },
     "contactMe": {
-        "title": "Contact me",
-        "subTitle": "You want to contact me ?",
-        "subTitle2": "It would be a pleasure to answer you !"
+        "title": "Contact",
+        "subTitle": "Let's work together !",
+        "button": "Schedule a call"
     }
 }

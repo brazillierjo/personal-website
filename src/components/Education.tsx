@@ -1,6 +1,6 @@
 import { GiDiploma } from "react-icons/gi";
-import { EducationItem, Generics } from "../../Interfaces/IFiles";
-import { useLangData } from "../../hooks/useLangData";
+import { useLangData } from "../hooks/useLangData";
+import { EducationItem, Generics } from "../Interfaces/IFiles";
 
 export const Education: React.FC<{}> = () => {
     const data = useLangData("education") as EducationItem[] | null;

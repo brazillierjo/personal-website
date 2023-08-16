@@ -1,15 +1,12 @@
-import React, { useEffect } from "react";
+import React from "react";
 import ReactDOM from "react-dom/client";
+import ScrollToTop from "./components/Commons/ScrollToTop";
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 import { Header } from "./components/Commons/Header";
 import { Home } from "./pages/Home";
-import { Portfolio } from "./pages/Portfolio";
-import { Contact } from "./pages/Contact";
 import { Footer } from "./components/Commons/Footer";
-import "./index.css";
-import ScrollToTop from "./components/Commons/ScrollToTop";
-import MyParticles from "./components/Commons/Particles";
 import { ToastContainer } from "react-toastify";
+import "./index.css";
 import "react-toastify/dist/ReactToastify.css";
 
 const AppLayout = () => {
@@ -36,14 +33,6 @@ const router = createBrowserRouter([
                 path: "/",
                 element: <Home />,
             },
-            {
-                path: "/portfolio",
-                element: <Portfolio />,
-            },
-            {
-                path: "/contact",
-                element: <Contact />,
-            },
         ],
     },
 ]);
@@ -54,7 +43,7 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
             <RouterProvider router={router} />
             <ScrollToTop />
         </main>
-        <MyParticles />
+
         <ToastContainer />
     </React.StrictMode>
 );

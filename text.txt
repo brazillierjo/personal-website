@@ -1,0 +1,7 @@
+https://react-portfolio-template.netlify.app/
+
+TODO : 
+- [ ] Afficher le code du composant sélectionné ?
+- [ ] Refaire le design des sections restantes
+- [ ] Ajouter un bouton pour télécharger le CV
+- [ ] Faire des animations
