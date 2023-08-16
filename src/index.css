@@ -9,7 +9,9 @@
 
 body {
     font-family: "Rubik", sans-serif;
-    color: #374151;
+    background: radial-gradient(circle, rgba(219, 219, 219, 0.5) 10%, transparent 5%);
+    background-size: 20px 20px;
+    cursor: url("./cursor.png"), auto;
 }
 
 .custom-btn {
@@ -22,4 +24,15 @@ body {
 
 .custom-box-shadow {
     box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2563eb;
+    border-radius: 15px;
 }
