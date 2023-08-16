@@ -18,7 +18,7 @@ export const Experiences = () => {
                         <MdWork className='text-secondary-200' size={20} />
                         <div className='absolute left-2 top-10 h-[60%] w-[2px] bg-gray-300' />
 
-                        <div className='grid grid-cols-2 w-full'>
+                        <div className='grid w-full grid-cols-2'>
                             <div>
                                 <p className='text-gray-500'>{experience.years}</p>
                                 <h2>{experience.title}</h2>
@@ -28,7 +28,7 @@ export const Experiences = () => {
                                     {experience.technologies && (
                                         <ul>
                                             {experience.technologies.map((technology: string, index) => (
-                                                <li key={index} className='text-gray-500 text-xs'>
+                                                <li key={index} className='text-xs text-gray-500'>
                                                     ↪ {technology}
                                                 </li>
                                             ))}

@@ -2,7 +2,6 @@ import clsx from "clsx";
 import ReactScrollLink from "../Commons/ReactScrollLink";
 import { NavLink } from "react-router-dom";
 import { useAtom } from "jotai";
-import { useLocation } from "react-router-dom";
 import { langAtom } from "../../atoms";
 import { useState } from "react";
 import { useLangData } from "../../hooks/useLangData";
@@ -13,13 +12,12 @@ function DesktopNavbar() {
     const [scrollOffset, setScrollOffset] = useState(0);
 
     const generics = useLangData("generics") as Generics | null;
-    const location = useLocation();
 
     if (!generics) return null;
 
     return (
-        <header className='fixed top-0 left-0 z-10 w-full bg-gradient-to-b from-primary-100 via-primary-50 to-white'>
-            <div className={`transition-all duration-300 container mx-auto ${scrollOffset >= 50 ? "py-2" : "py-5"}`}>
+        <header className='fixed left-0 top-0 z-10 w-full bg-gradient-to-b from-primary-100 via-primary-50 to-white'>
+            <div className={`container mx-auto transition-all duration-300 ${scrollOffset >= 50 ? "py-2" : "py-5"}`}>
                 <div className='flex items-center justify-between'>
                     <div className='flex items-center gap-8'>
                         <NavLink to='/'>

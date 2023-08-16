@@ -18,15 +18,15 @@ function MobileNavbar() {
     if (!generics) return null;
 
     return (
-        <header className='absolute px-5 top-0 right-0 z-10 w-full bg-gradient-to-b from-primary-100 via-primary-50 to-white'>
-            <div className='transition-all duration-300 container mx-auto py-5'>
+        <header className='absolute right-0 top-0 z-10 w-full bg-gradient-to-b from-primary-100 via-primary-50 to-white px-5'>
+            <div className='container mx-auto py-5 transition-all duration-300'>
                 <div className='flex items-center justify-between'>
-                    <div className='flex items-center justify-between w-full gap-8'>
+                    <div className='flex w-full items-center justify-between gap-8'>
                         <NavLink to='/'>
                             <h2 className='text-lg font-extrabold'>Johan.</h2>
                         </NavLink>
 
-                        <div className='flex gap-5 text-sm justify-center'>
+                        <div className='flex justify-center gap-5 text-sm'>
                             <button
                                 className={clsx(lang === "en" && "border-b-2 border-primary-300")}
                                 onClick={() => {

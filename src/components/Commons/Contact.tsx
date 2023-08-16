@@ -13,12 +13,12 @@ export const Contact = () => {
         <>
             <h2 className='mb-5 w-fit pb-1 text-3xl font-bold'>{generics.contactMe.title}</h2>
 
-            <div className='text-center flex flex-col gap-0 lg:text-left'>
-                <h3 className='text-2xl lg:text-4xl text-center uppercase lg:text-left'>
+            <div className='flex flex-col gap-0 text-center lg:text-left'>
+                <h3 className='text-center text-2xl uppercase lg:text-left lg:text-4xl'>
                     {generics.contactMe.subTitle}
                 </h3>
 
-                <Link className='rounded custom-btn text-2xl' to={socialLinks.email.url}>
+                <Link className='custom-btn rounded text-2xl' to={socialLinks.email.url}>
                     {generics.contactMe.button}
                 </Link>
 

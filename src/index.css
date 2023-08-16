@@ -13,7 +13,7 @@ body {
 }
 
 .custom-btn {
-    @apply mt-8 rounded-md bg-black w-fit text-white uppercase px-6 py-3 transition-all duration-150 hover:bg-primary-400;
+    @apply mt-8 w-fit rounded-md bg-black px-6 py-3 uppercase text-white transition-all duration-150 hover:bg-primary-400;
 }
 
 .custom-min-h-screen {

@@ -26,11 +26,11 @@ export const Presentation: React.FC<{}> = () => {
 
     return (
         <div className='custom-min-h-screen relative mx-auto my-10 h-fit text-center lg:my-0'>
-            <div className='flex w-full flex-col space-y-16 absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2'>
-                <div className='mx-auto lg:flex justify-center lg:justify-start lg:gap-12'>
-                    <img src={Avatar3} alt='Avatar' className='rounded-full mx-auto h-72 lg:h-72' />
+            <div className='absolute left-1/2 top-1/2 flex w-full -translate-x-1/2 -translate-y-1/2 flex-col space-y-16'>
+                <div className='mx-auto justify-center lg:flex lg:justify-start lg:gap-12'>
+                    <img src={Avatar3} alt='Avatar' className='mx-auto h-72 rounded-full lg:h-72' />
 
-                    <div className='lg:text-left text-[35px] text-justify mt-12 lg:mt-0 lg:text-[55px]'>
+                    <div className='mt-12 text-justify text-[35px] lg:mt-0 lg:text-left lg:text-[55px]'>
                         <h2>{generics.main.firstLine}</h2>
                         <h3 className='leading-tight'>{generics.main.secondLine}</h3>
 

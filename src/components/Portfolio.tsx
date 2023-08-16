@@ -54,7 +54,7 @@ export const Portfolio: React.FC<{}> = () => {
                                 {item.url && (
                                     <div className='mx-auto mt-auto'>
                                         <a href={item.url} target='_blank'>
-                                            <button className='mt-8 flex gap-1 rounded-full bg-secondary-100 px-5 py-2 font-bold text-white transition-all duration-150 hover:bg-secondary-200'>
+                                            <button className='bg-secondary-100 hover:bg-secondary-200 mt-8 flex gap-1 rounded-full px-5 py-2 font-bold text-white transition-all duration-150'>
                                                 {generics.buttons.seeProject} <RxOpenInNewWindow />
                                             </button>
                                         </a>

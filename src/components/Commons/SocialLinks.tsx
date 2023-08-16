@@ -10,7 +10,7 @@ import socialLinks from "../../data/socialLinks.json";
  */
 function SocialLinks({ withoutEmail = false }: { withoutEmail?: boolean }) {
     return (
-        <div className='lg:text-left text-base space-x-8 mt-6 lg:mt-4'>
+        <div className='mt-6 space-x-8 text-base lg:mt-4 lg:text-left'>
             {Object.keys(socialLinks).map((key, index) => {
                 if (withoutEmail && key === "email") return null;
 
