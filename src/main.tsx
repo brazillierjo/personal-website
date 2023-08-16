@@ -1,49 +1,38 @@
+import "./index.css";
+import "react-toastify/dist/ReactToastify.css";
 import React from "react";
 import ReactDOM from "react-dom/client";
-import ScrollToTop from "./components/Commons/ScrollToTop";
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 import { Header } from "./components/Commons/Header";
 import { Home } from "./pages/Home";
 import { Footer } from "./components/Commons/Footer";
 import { ToastContainer } from "react-toastify";
-import "./index.css";
-import "react-toastify/dist/ReactToastify.css";
 
-const AppLayout = () => {
-    // const [isUnderConstruction] = useAtom(isUnderConstructionAtom);
-
-    // useEffect(() => {
-    //     isUnderConstruction && Notifier("The english translation is still in progress 🚧", "info", 10000);
-    // }, [isUnderConstruction]);
+const App = () => {
+    const router = createBrowserRouter([
+        {
+            element: (
+                <main className='mx-auto max-w-[1200px] px-8'>
+                    <Header />
+                    <Outlet />
+                    <Footer />
+                </main>
+            ),
+            children: [
+                {
+                    path: "/",
+                    element: <Home />,
+                },
+            ],
+        },
+    ]);
 
     return (
-        <>
-            <Header />
-            <Outlet />
-            <Footer />
-        </>
+        <React.StrictMode>
+            <RouterProvider router={router} />
+            <ToastContainer />
+        </React.StrictMode>
     );
 };
 
-const router = createBrowserRouter([
-    {
-        element: <AppLayout />,
-        children: [
-            {
-                path: "/",
-                element: <Home />,
-            },
-        ],
-    },
-]);
-
-ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
-    <React.StrictMode>
-        <main className='relative z-10 mx-auto max-w-[1200px] p-10 md:p-4'>
-            <RouterProvider router={router} />
-            <ScrollToTop />
-        </main>
-
-        <ToastContainer />
-    </React.StrictMode>
-);
+ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(<App />);

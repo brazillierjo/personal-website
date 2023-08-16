@@ -5,4 +5,4 @@ TODO :
 - [ ] Refaire le design des sections restantes
 - [ ] Ajouter un bouton pour télécharger le CV
 - [ ] Faire des animations
-- [ ] Centrer bouton Schedule a call
+- [ ] Implémenter DarkMode

@@ -1,6 +1,5 @@
 import clsx from "clsx";
 import ReactScrollLink from "../Commons/ReactScrollLink";
-import { NavLink } from "react-router-dom";
 import { useAtom } from "jotai";
 import { langAtom } from "../../atoms";
 import { useState } from "react";
@@ -9,9 +8,13 @@ import { Generics } from "../../Interfaces/IFiles";
 
 function DesktopNavbar() {
     const [lang, setLang] = useAtom(langAtom);
-    const [scrollOffset, setScrollOffset] = useState(0);
+    const [scrollOffset, _] = useState(0);
 
     const generics = useLangData("generics") as Generics | null;
+
+    const scrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    };
 
     if (!generics) return null;
 
@@ -20,9 +23,9 @@ function DesktopNavbar() {
             <div className={`container mx-auto transition-all duration-300 ${scrollOffset >= 50 ? "py-2" : "py-5"}`}>
                 <div className='flex items-center justify-between'>
                     <div className='flex items-center gap-8'>
-                        <NavLink to='/'>
+                        <button onClick={scrollToTop}>
                             <h2 className='text-xl font-extrabold'>Johan.</h2>
-                        </NavLink>
+                        </button>
 
                         <div className='hidden gap-5 text-sm lg:flex'>
                             <button

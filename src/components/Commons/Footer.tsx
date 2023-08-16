@@ -8,7 +8,7 @@ export const Footer: React.FC<{}> = () => {
     const year = date.getFullYear();
 
     return (
-        <div className='mt-12'>
+        <div className='mt-12 pb-6'>
             <p className='mt-4 text-center text-xs text-gray-500'>Made with ❤️ by RINCON BRAZILLIER Johan | {year}</p>
         </div>
     );

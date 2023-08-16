@@ -1,19 +1,16 @@
-import { useState } from "react";
 import clsx from "clsx";
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { useAtom } from "jotai";
-import { useLocation } from "react-router-dom";
 import { langAtom } from "../../atoms";
 import { useLangData } from "../../hooks/useLangData";
 import { Generics } from "../../Interfaces/IFiles";
-import { RxHamburgerMenu } from "react-icons/rx";
 
 function MobileNavbar() {
     const [lang, setLang] = useAtom(langAtom);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const generics = useLangData("generics") as Generics | null;
-    const location = useLocation();
 
     if (!generics) return null;
 
