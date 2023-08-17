@@ -32,20 +32,20 @@ export const Presentation: React.FC<{}> = () => {
         <div className='custom-min-h-screen relative mx-auto my-10 h-fit text-center lg:my-0'>
             <div className='absolute left-1/2 top-1/2 flex w-full -translate-x-1/2 -translate-y-1/2 flex-col space-y-16'>
                 <div className='mx-auto justify-center lg:flex lg:justify-start lg:gap-12'>
-                    <img src={Avatar3} alt='Avatar' className='mx-auto h-72 rounded-full lg:h-72' />
+                    <img src={Avatar3} alt='Avatar' className='mx-auto h-56 rounded-full lg:h-72' />
 
-                    <div className='mt-12 text-justify text-[35px] lg:mt-0 lg:text-left lg:text-[55px]'>
+                    <div className='mt-12 text-center text-[25px] lg:mt-0 lg:text-left lg:text-[55px]'>
                         <h2>{generics.main.firstLine}</h2>
                         <h3 className='leading-tight'>{generics.main.secondLine}</h3>
 
                         <SocialLinks />
 
                         {lang === "fr" && (
-                            <div className='flex justify-center lg:justify-start gap-1'>
+                            <div className='flex flex-col justify-center lg:justify-start w-full md:flex-row gap-0 md:gap-4'>
                                 <a
                                     href='./CV.pdf'
                                     download='CV-RINCON-BRAZILLIER-Johan.pdf'
-                                    className='custom-btn w-full text-base flex items-center gap-3'>
+                                    className='custom-btn w-full mx-auto md:-mx-0 text-sm lg:text-base flex items-center gap-3'>
                                     Curriculum vitæ
                                     <AiOutlineDownload className='w-6 h-6' />
                                 </a>
@@ -53,7 +53,7 @@ export const Presentation: React.FC<{}> = () => {
                                 <a
                                     href='./motivation.pdf'
                                     download='LETTRE-MOTIVATION-RINCON-BRAZILLIER-Johan.pdf'
-                                    className='custom-btn w-full text-base flex items-center gap-3'>
+                                    className='custom-btn w-full mx-auto md:-mx-0 text-sm lg:text-base flex items-center gap-3'>
                                     Lettre de motivation
                                     <AiOutlineDownload className='w-6 h-6' />
                                 </a>
