@@ -6,10 +6,14 @@ import { useLangData } from "../hooks/useLangData";
 import { Generics } from "../Interfaces/IFiles";
 import { useWindowSize } from "usehooks-ts";
 import SocialLinks from "./Commons/SocialLinks";
+import { AiOutlineDownload } from "react-icons/ai";
+import { langAtom } from "../atoms";
+import { useAtom } from "jotai";
 
 export const Presentation: React.FC<{}> = () => {
     const generics = useLangData("generics") as Generics | null;
     const { width } = useWindowSize();
+    const [lang, _] = useAtom(langAtom);
 
     const handleScroll = () => {
         const aboutMe = document.getElementById("about-me");
@@ -35,6 +39,26 @@ export const Presentation: React.FC<{}> = () => {
                         <h3 className='leading-tight'>{generics.main.secondLine}</h3>
 
                         <SocialLinks />
+
+                        {lang === "fr" && (
+                            <div className='flex justify-center lg:justify-start gap-1'>
+                                <a
+                                    href='./CV.pdf'
+                                    download='CV-RINCON-BRAZILLIER-Johan.pdf'
+                                    className='custom-btn w-full text-base flex items-center gap-3'>
+                                    Curriculum vitæ
+                                    <AiOutlineDownload className='w-6 h-6' />
+                                </a>
+
+                                <a
+                                    href='./motivation.pdf'
+                                    download='LETTRE-MOTIVATION-RINCON-BRAZILLIER-Johan.pdf'
+                                    className='custom-btn w-full text-base flex items-center gap-3'>
+                                    Lettre de motivation
+                                    <AiOutlineDownload className='w-6 h-6' />
+                                </a>
+                            </div>
+                        )}
                     </div>
                 </div>
 
