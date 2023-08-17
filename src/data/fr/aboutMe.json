@@ -7,12 +7,7 @@
     {
         "isInReadMore": false,
         "emoji": "🧘‍♂️",
-        "text": "Moi c'est Johan. Développeur Web depuis 2020, j'aime travailler avec React & WordPress. J'adore intégrer des maquettes de tout style, rendre dynamique et intéractif un site web pour maximiser l'expérience utilisateur."
-    },
-    {
-        "isInReadMore": false,
-        "emoji": "🤝",
-        "text": "Vous vous trouvez actuellement sur mon site portfolio. Jetez un oeil, ça vous donnera une idée de ce que je peux faire pour vous aider."
+        "text": "Moi c'est Johan. Développeur Web depuis 2020, j'apprécie particulièrement travailler avec React & NextJs dans un environnement Agile, en suivant les principes du clean code et en intégrant des pipelines CI/CD. J'adore transformer des maquettes de tout style en sites web dynamiques et interactifs pour améliorer l'expérience utilisateur."
     },
     {
         "isInReadMore": true,

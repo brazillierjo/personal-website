@@ -29,7 +29,7 @@ export const Experiences = () => {
                                         <ul>
                                             {experience.technologies.map((technology: string, index) => (
                                                 <li key={index} className='text-xs text-gray-500'>
-                                                    ↪ {technology}
+                                                    ✨ {technology}
                                                 </li>
                                             ))}
                                         </ul>

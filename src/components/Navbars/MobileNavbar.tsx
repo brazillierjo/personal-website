@@ -25,21 +25,21 @@ function MobileNavbar() {
 
                         <div className='flex justify-center gap-5 text-sm'>
                             <button
-                                className={clsx(lang === "en" && "border-b-2 border-primary-300")}
+                                className={clsx(lang === "en" && "border-b-2 border-primary-300", "text-lg")}
                                 onClick={() => {
                                     setLang("en");
                                     setIsMenuOpen(!isMenuOpen);
                                 }}>
-                                English
+                                🇬🇧
                             </button>
 
                             <button
-                                className={clsx(lang === "fr" && "border-b-2 border-primary-300")}
+                                className={clsx(lang === "fr" && "border-b-2 border-primary-300", "text-lg")}
                                 onClick={() => {
                                     setLang("fr");
                                     setIsMenuOpen(!isMenuOpen);
                                 }}>
-                                Français
+                                🇫🇷
                             </button>
                         </div>
                     </div>

@@ -7,12 +7,7 @@
     {
         "isInReadMore": false,
         "emoji": "🧘‍♂️",
-        "text": "I'm Johan. Web Developer since 2020, I enjoy working with React & WordPress. I love turning mockups of any style into dynamic and interactive websites to enhance the user experience."
-    },
-    {
-        "isInReadMore": false,
-        "emoji": "🤝",
-        "text": "You are currently on my portfolio website. Take a look around, it will give you an idea of what I can do to help you."
+        "text": "I'm Johan. A Web Developer since 2020, I thoroughly enjoy working with React & NextJs in an Agile environment, adhering to clean code principles, and implementing CI/CD pipelines. I take pleasure in transforming mockups of various styles into dynamic and interactive websites to enhance the user experience."
     },
     {
         "isInReadMore": true,

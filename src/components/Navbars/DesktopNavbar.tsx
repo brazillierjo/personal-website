@@ -29,15 +29,15 @@ function DesktopNavbar() {
 
                         <div className='hidden gap-5 text-sm lg:flex'>
                             <button
-                                className={clsx(lang === "en" && "border-b-2 border-primary-300")}
+                                className={clsx(lang === "en" && "border-b-2 border-primary-300", "text-xl")}
                                 onClick={() => setLang("en")}>
-                                English
+                                🇬🇧
                             </button>
 
                             <button
-                                className={clsx(lang === "fr" && "border-b-2 border-primary-300")}
+                                className={clsx(lang === "fr" && "border-b-2 border-primary-300", "text-xl")}
                                 onClick={() => setLang("fr")}>
-                                Français
+                                🇫🇷
                             </button>
                         </div>
                     </div>
@@ -46,7 +46,7 @@ function DesktopNavbar() {
                         <ReactScrollLink to='about-me' label={generics.aboutMe.title} />
                         <ReactScrollLink to='portfolio' label={generics.portfolio.title} />
                         <ReactScrollLink to='experiences-and-educations' label={generics.experiences.title} />
-                        <ReactScrollLink to='/contact' label={generics.contactMe.title} />
+                        <ReactScrollLink to='contact' label={generics.contactMe.title} />
                     </nav>
                 </div>
             </div>

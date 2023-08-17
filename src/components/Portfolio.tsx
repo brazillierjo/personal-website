@@ -4,7 +4,7 @@ import { RxOpenInNewWindow } from "react-icons/rx";
 import { useLangData } from "../hooks/useLangData";
 import { Generics, ProjectItem } from "../Interfaces/IFiles";
 
-export const Portfolio: React.FC<{}> = () => {
+export const Portfolio = () => {
     const data = useLangData("projects") as ProjectItem[] | null;
     const generics = useLangData("generics") as Generics | null;
 
@@ -20,7 +20,7 @@ export const Portfolio: React.FC<{}> = () => {
 
             <p className='mb-8 text-sm text-gray-500'>{generics.portfolio.subTitle}</p>
 
-            <div className='grid gap-12 md:grid-cols-2 lg:grid-cols-3'>
+            <div className='grid gap-12 md:grid-cols-2'>
                 {data &&
                     data.map((item, index) => {
                         return (
@@ -54,7 +54,7 @@ export const Portfolio: React.FC<{}> = () => {
                                 {item.url && (
                                     <div className='mx-auto mt-auto'>
                                         <a href={item.url} target='_blank'>
-                                            <button className='bg-secondary-100 hover:bg-secondary-200 mt-8 flex gap-1 rounded-full px-5 py-2 font-bold text-white transition-all duration-150'>
+                                            <button className='custom-btn flex items-center gap-3'>
                                                 {generics.buttons.seeProject} <RxOpenInNewWindow />
                                             </button>
                                         </a>
