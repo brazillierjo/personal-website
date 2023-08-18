@@ -19,7 +19,7 @@ export const Contact = () => {
                 </h3>
 
                 <div className='text-right lg:text-left'>
-                    <Link className='custom-btn rounded text-2xl' to={socialLinks.email.url}>
+                    <Link className='custom-btn rounded text-lg md:text-2xl' to={socialLinks.email.url}>
                         {generics.contactMe.button}
                     </Link>
                 </div>
