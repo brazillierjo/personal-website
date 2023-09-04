@@ -49,14 +49,6 @@ export const Presentation: React.FC<{}> = () => {
                                     Curriculum vitæ
                                     <AiOutlineDownload className='w-6 h-6' />
                                 </a>
-
-                                <a
-                                    href='./motivation.pdf'
-                                    download='LETTRE-MOTIVATION-RINCON-BRAZILLIER-Johan.pdf'
-                                    className='custom-btn w-full mx-auto md:-mx-0 text-sm lg:text-base flex items-center gap-3'>
-                                    Lettre de motivation
-                                    <AiOutlineDownload className='w-6 h-6' />
-                                </a>
                             </div>
                         )}
                     </div>
