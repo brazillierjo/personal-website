@@ -8,7 +8,7 @@ import socialLinks from "../../data/socialLinks.json";
  * @param {boolean} props.withoutEmail - Whether to exclude the email link.
  * @return {JSX.Element} - The rendered social links.
  */
-function SocialLinks({ withoutEmail = false }: { withoutEmail?: boolean }) {
+function SocialLinks({ withoutEmail = false }: { withoutEmail?: boolean }): JSX.Element {
     return (
         <div className='mt-6 space-x-8 text-base lg:mt-4 lg:text-left'>
             {Object.keys(socialLinks).map((key, index) => {

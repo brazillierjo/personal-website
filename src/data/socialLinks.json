@@ -10,5 +10,9 @@
     "malt": {
         "label": "Malt",
         "url": "https://www.malt.fr/profile/brazillier"
+    },
+    "github": {
+        "label": "Github",
+        "url": "https://github.com/brazillierjo"
     }
 }

@@ -9,8 +9,9 @@ import SocialLinks from "./Commons/SocialLinks";
 import { AiOutlineDownload } from "react-icons/ai";
 import { langAtom } from "../atoms";
 import { useAtom } from "jotai";
+import React from "react";
 
-export const Presentation: React.FC<{}> = () => {
+export const Presentation = () => {
     const generics = useLangData("generics") as Generics | null;
     const { width } = useWindowSize();
     const [lang, _] = useAtom(langAtom);
