@@ -1,30 +1,5 @@
 [
     {
-        "title": "Waletoo",
-        "startDate": "2021",
-        "description": "Waletoo est une application Web qui va vous aider à gérer vos finances 💰. Simple et efficace. Après avoir créé un compte, il suffit de rentrer ses charges et ses revenus. L'application génère alors toute sorte de calculs et graphiques ainsi que des conseils pour gérer au mieux vos finances.",
-        "images": ["waletoo"],
-        "url": "https://waletoo-frontend.vercel.app/",
-        "technologies": [
-            {
-                "class": "devicon-react-plain colored",
-                "name": "React"
-            },
-            {
-                "class": "devicon-typescript-plain colored",
-                "name": "TypeScript"
-            },
-            {
-                "class": "devicon-tailwindcss-plain colored",
-                "name": "Tailwind"
-            },
-            {
-                "class": "devicon-nodejs-plain colored",
-                "name": "NodeJs"
-            }
-        ]
-    },
-    {
         "title": "Générateur de séance de musculation [mobile-friendly only]",
         "startDate": "2022",
         "description": "ma-sante.fr est un gérénateur de séance de musculation 💪. Cette web app se charge de générer des séances avec des exercices toujours différents afin d'optimiser les résultats. Accompagné d'un GIF animé, les exercices sont faciles à reproduire.",
