@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+
 import socialLinks from "../../data/socialLinks.json";
 
 /**
@@ -9,21 +10,21 @@ import socialLinks from "../../data/socialLinks.json";
  * @return {JSX.Element} - The rendered social links.
  */
 function SocialLinks({ withoutEmail = false }: { withoutEmail?: boolean }): JSX.Element {
-    return (
-        <div className='mt-6 space-x-8 text-base lg:mt-4 lg:text-left'>
-            {Object.keys(socialLinks).map((key, index) => {
-                if (withoutEmail && key === "email") return null;
+  return (
+    <div className="mt-6 space-x-8 text-base lg:mt-4 lg:text-left">
+      {Object.keys(socialLinks).map((key, index) => {
+        if (withoutEmail && key === "email") return null;
 
-                const link = socialLinks[key as keyof typeof socialLinks];
+        const link = socialLinks[key as keyof typeof socialLinks];
 
-                return (
-                    <Link key={index} to={link.url} target='_blank' className='border-primary-400 hover:border-b-2'>
-                        {link.label}
-                    </Link>
-                );
-            })}
-        </div>
-    );
+        return (
+          <Link key={index} to={link.url} target="_blank" className="border-primary-400 hover:border-b-2">
+            {link.label}
+          </Link>
+        );
+      })}
+    </div>
+  );
 }
 
 export default SocialLinks;

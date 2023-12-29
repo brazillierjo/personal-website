@@ -1,35 +1,35 @@
 {
-    "buttons": {
-        "contactMe": "Me contacter",
-        "readMore": "En savoir plus...",
-        "close": "Refermer",
-        "goToProjects": "Voir mes projets",
-        "seeProject": "Voir le projet"
-    },
-    "main": {
-        "firstLine": "Bonjour 👋",
-        "secondLine": "Je suis Brazillier Johan - Développeur front-end 👨‍💻"
-    },
-    "aboutMe": {
-        "title": "À propos de moi",
-        "firstSkill": "Dévelopement frontend",
-        "secondSkill": "Dévelopement backend",
-        "thirdSkill": "UX/UI",
-        "fourthSkill": "Référencement",
-        "fifthSkill": "Optimisation"
-    },
-    "experiences": {
-        "title": "Expériences & Diplômes",
-        "professionalPath": "Mon parcours professionnel",
-        "scholarPath": "Mon parcours scolaire"
-    },
-    "portfolio": {
-        "title": "Mes projets",
-        "subTitle": "⚠️ Ces projets sont mes projets personnels. Mes projets professionnels ne peuvent évidemment pas être affichés ici pour des raisons de droits."
-    },
-    "contactMe": {
-        "title": "Contactez-moi",
-        "subTitle": "Travaillons ensemble !",
-        "button": "Prendre rendez-vous"
-    }
+  "buttons": {
+    "contactMe": "Me contacter",
+    "readMore": "En savoir plus...",
+    "close": "Refermer",
+    "goToProjects": "Voir mes projets",
+    "seeProject": "Voir le projet"
+  },
+  "main": {
+    "firstLine": "Bonjour 👋",
+    "secondLine": "Je suis Brazillier Johan - Développeur front-end 👨‍💻"
+  },
+  "aboutMe": {
+    "title": "À propos de moi",
+    "firstSkill": "Dévelopement frontend",
+    "secondSkill": "Dévelopement backend",
+    "thirdSkill": "UX/UI",
+    "fourthSkill": "Référencement",
+    "fifthSkill": "Optimisation"
+  },
+  "experiences": {
+    "title": "Expériences & Diplômes",
+    "professionalPath": "Mon parcours professionnel",
+    "scholarPath": "Mon parcours scolaire"
+  },
+  "portfolio": {
+    "title": "Mes projets",
+    "subTitle": "⚠️ Ces projets sont mes projets personnels. Mes projets professionnels ne peuvent évidemment pas être affichés ici pour des raisons de droits."
+  },
+  "contactMe": {
+    "title": "Contactez-moi",
+    "subTitle": "Travaillons ensemble !",
+    "button": "Prendre rendez-vous"
+  }
 }

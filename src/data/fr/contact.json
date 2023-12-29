@@ -1,8 +1,8 @@
 {
-    "title": "Contact",
-    "description": "Si vous souhaitez me contacter pour discuter d'un projet de développement ou obtenir de plus amples informations sur mes services, veuillez me contacter via l'un des services ci-dessous.",
-    "description2": "Expérimenté et passionné, je serai heureux de vous aider à faire avancer votre projet.",
-    "linkedInContact": "Me contacter via LinkedIn",
-    "mailContact": "Me contacter par mail",
-    "maltContact": "Me contacter via Malt"
+  "title": "Contact",
+  "description": "Si vous souhaitez me contacter pour discuter d'un projet de développement ou obtenir de plus amples informations sur mes services, veuillez me contacter via l'un des services ci-dessous.",
+  "description2": "Expérimenté et passionné, je serai heureux de vous aider à faire avancer votre projet.",
+  "linkedInContact": "Me contacter via LinkedIn",
+  "mailContact": "Me contacter par mail",
+  "maltContact": "Me contacter via Malt"
 }

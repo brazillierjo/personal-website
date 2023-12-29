@@ -1,8 +1,8 @@
 export const AppWidth = {
-    mobile: 480,
-    tablet: 768,
-    desktop: 1024,
-    largeDesktop: 1440,
+  mobile: 480,
+  tablet: 768,
+  desktop: 1024,
+  largeDesktop: 1440,
 };
 
 export const IS_MOBILE = window.innerWidth < AppWidth.tablet;

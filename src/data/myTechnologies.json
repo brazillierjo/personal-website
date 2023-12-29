@@ -1,62 +1,62 @@
 [
-    {
-        "name": "HTML",
-        "icon": "devicon-html5-plain-wordmark colored"
-    },
-    {
-        "name": "CSS",
-        "icon": "devicon-css3-plain-wordmark colored"
-    },
-    {
-        "name": "SASS",
-        "icon": "devicon-sass-original colored"
-    },
-    {
-        "name": "React",
-        "icon": "devicon-react-original-wordmark colored"
-    },
-    {
-        "name": "JavaScript",
-        "icon": "devicon-javascript-plain colored"
-    },
-    {
-        "name": "WordPress",
-        "icon": "devicon-wordpress-plain-wordmark colored"
-    },
-    {
-        "name": "TypeScript",
-        "icon": "devicon-typescript-plain colored"
-    },
-    {
-        "name": "NextJS",
-        "icon": "devicon-nextjs-plain colored"
-    },
-    {
-        "name": "TailwindCSS",
-        "icon": "devicon-tailwindcss-original-wordmark colored"
-    },
-    {
-        "name": "Bootstrap",
-        "icon": "devicon-bootstrap-plain-wordmark colored"
-    },
-    {
-        "name": "NodeJS",
-        "icon": "devicon-nodejs-plain colored"
-    },
-    {
-        "name": "Express",
-        "icon": "devicon-express-original colored"
-    },
-    {
-        "name": "MongoDB",
-        "icon": "devicon-mongodb-plain-wordmark colored"
-    },
-    {
-        "name": "MySQL",
-        "icon": "devicon-mysql-plain-wordmark colored"
-    },
-    {
-        "name": "GitHub",
-        "icon": "devicon-github-original-wordmark colored"
-    }
+  {
+    "name": "HTML",
+    "icon": "devicon-html5-plain-wordmark colored"
+  },
+  {
+    "name": "CSS",
+    "icon": "devicon-css3-plain-wordmark colored"
+  },
+  {
+    "name": "SASS",
+    "icon": "devicon-sass-original colored"
+  },
+  {
+    "name": "React",
+    "icon": "devicon-react-original-wordmark colored"
+  },
+  {
+    "name": "JavaScript",
+    "icon": "devicon-javascript-plain colored"
+  },
+  {
+    "name": "WordPress",
+    "icon": "devicon-wordpress-plain-wordmark colored"
+  },
+  {
+    "name": "TypeScript",
+    "icon": "devicon-typescript-plain colored"
+  },
+  {
+    "name": "NextJS",
+    "icon": "devicon-nextjs-plain colored"
+  },
+  {
+    "name": "TailwindCSS",
+    "icon": "devicon-tailwindcss-original-wordmark colored"
+  },
+  {
+    "name": "Bootstrap",
+    "icon": "devicon-bootstrap-plain-wordmark colored"
+  },
+  {
+    "name": "NodeJS",
+    "icon": "devicon-nodejs-plain colored"
+  },
+  {
+    "name": "Express",
+    "icon": "devicon-express-original colored"
+  },
+  {
+    "name": "MongoDB",
+    "icon": "devicon-mongodb-plain-wordmark colored"
+  },
+  {
+    "name": "MySQL",
+    "icon": "devicon-mysql-plain-wordmark colored"
+  },
+  {
+    "name": "GitHub",
+    "icon": "devicon-github-original-wordmark colored"
+  }
 ]

@@ -10,9 +10,9 @@ Welcome to my personal portfolio! This website will allow you to discover inform
 
 ## 🚀 Features
 
--   Explore my professional background and learn about my skills as a front-end web developer 👨‍💻
--   Browse through my personal web projects to learn about the technologies and concepts used 🌐
--   Contact me to discuss collaborations, professional opportunities, or simply to connect 📧
+- Explore my professional background and learn about my skills as a front-end web developer 👨‍💻
+- Browse through my personal web projects to learn about the technologies and concepts used 🌐
+- Contact me to discuss collaborations, professional opportunities, or simply to connect 📧
 
 ## 📞 Contact Me
 
@@ -34,9 +34,9 @@ Bienvenue sur mon portfolio personnel ! Ce site vous permettra de découvrir des
 
 ## 🚀 Fonctionnalités
 
--   Consultez mon parcours professionnel et découvrez mes compétences en tant que développeur web front-end 👨‍💻
--   Parcourez mes projets web personnels pour en savoir plus sur les technologies et les concepts utilisés 🌐
--   Contactez-moi pour discuter de collaborations, d'opportunités professionnelles ou simplement pour faire connaissance 📧
+- Consultez mon parcours professionnel et découvrez mes compétences en tant que développeur web front-end 👨‍💻
+- Parcourez mes projets web personnels pour en savoir plus sur les technologies et les concepts utilisés 🌐
+- Contactez-moi pour discuter de collaborations, d'opportunités professionnelles ou simplement pour faire connaissance 📧
 
 ## 📞 Me Contacter
 

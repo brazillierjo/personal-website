@@ -1,140 +1,140 @@
 [
-    {
-        "title": "Walletoo - L'assistant de gestion de finances",
-        "startDate": "2023",
-        "description": "Walletoo est un assistant de gestion de finances personnelles. Il permet de gérer ses finances en toute simplicité. Il suffit de se connecter et d'entrer ses revenus et ses charges mensuelles. Walletoo se charge de calculer le reste à vivre et de vous proposer des solutions d'épargne, des graphiques etc.",
-        "images": ["walletoo"],
-        "url": "https://walletoo.vercel.app/",
-        "technologies": [
-            {
-                "class": "devicon-nextjs-plain colored",
-                "name": "NextJs"
-            },
-            {
-                "class": "devicon-typescript-plain colored",
-                "name": "TypeScript"
-            },
-            {
-                "class": "devicon-nodejs-plain colored",
-                "name": "NodeJs"
-            }
-        ]
-    },
-    {
-        "title": "Générateur de séance de musculation [mobile-friendly only]",
-        "startDate": "2022",
-        "description": "ma-sante.fr est un gérénateur de séance de musculation 💪. Cette web app se charge de générer des séances avec des exercices toujours différents afin d'optimiser les résultats. Accompagné d'un GIF animé, les exercices sont faciles à reproduire.",
-        "images": ["workoutGenerator"],
-        "url": "https://ma-seance.vercel.app/",
-        "technologies": [
-            {
-                "class": "devicon-nextjs-plain colored",
-                "name": "NextJs"
-            },
-            {
-                "class": "devicon-typescript-plain colored",
-                "name": "TypeScript"
-            },
-            {
-                "class": "devicon-nodejs-plain colored",
-                "name": "NodeJs"
-            }
-        ]
-    },
-    {
-        "title": "Piano",
-        "startDate": "2022",
-        "description": "De l'enregistrement du son des clés jusqu'au design, ce projet m'a appris à gérer les évènements et les performances ! En plus, on peut y passer des heures sans avoir besoin d'en acheter un 🤓",
-        "images": ["piano"],
-        "url": "https://brazillierjo.github.io/piano/",
-        "technologies": [
-            {
-                "class": "devicon-html5-plain colored",
-                "name": "HTML"
-            },
-            {
-                "class": "devicon-css3-plain colored",
-                "name": "CSS"
-            },
-            {
-                "class": "devicon-javascript-plain colored",
-                "name": "JavaScript"
-            }
-        ]
-    },
-    {
-        "title": "Sites WordPress en tout genre",
-        "startDate": "2022",
-        "description": "Création de sites WordPress 🎨. De la configuration du thème à la création des pages, je m'occupe de tout !",
-        "images": ["concession"],
-        "technologies": [
-            {
-                "class": "devicon-wordpress-plain-wordmark colored",
-                "name": "WordPress"
-            }
-        ]
-    },
-    {
-        "title": "Vitassurance",
-        "startDate": "2021",
-        "description": "Site de courtage en assurances vous permettant de comparer rapidement les offres des différents assureurs. Une fois le formulaire rempli par le visiteur, ses informations sont transmises via une API à un CRM afin de gérer le dossier du nouveau client.",
-        "images": ["vitassurance"],
-        "url": "https://vitassurance.fr/",
-        "technologies": [
-            {
-                "class": "devicon-html5-plain colored",
-                "name": "HTML"
-            },
-            {
-                "class": "devicon-css3-plain colored",
-                "name": "CSS"
-            },
-            {
-                "class": "devicon-nodejs-plain colored",
-                "name": "NodeJs"
-            }
-        ]
-    },
-    {
-        "title": "Web Calculator",
-        "startDate": "2020",
-        "description": "Projet réalisé dans le but d'approfondir mes connaissances JavaScript Vanilla. Vous pouvez choisir entre des calculs de base ou des calculs avancés. Apprentissage du light/night mode.",
-        "images": ["calculator"],
-        "url": "https://brazillierjo.github.io/calculator/",
-        "technologies": [
-            {
-                "class": "devicon-html5-plain colored",
-                "name": "HTML"
-            },
-            {
-                "class": "devicon-css3-plain colored",
-                "name": "CSS"
-            },
-            {
-                "class": "devicon-javascript-plain colored",
-                "name": "Javascript"
-            }
-        ]
-    },
-    {
-        "title": "Markdown Previewer",
-        "startDate": "2020",
-        "description": "Markdown réalisé dans le but d'une formation React. Déployé sur GitHub Pages.",
-        "images": ["markdown"],
-        "url": "https://brazillierjo.github.io/markdown/",
-        "technologies": [
-            {
-                "class": "devicon-react-plain colored",
-                "name": "React"
-            },
-            {
-                "class": "devicon-html5-plain colored",
-                "name": "HTML"
-            },
-            {
-                "class": "devicon-css3-plain colored",
-                "name": "CSS"
-            }
-        ]
-    }
+  {
+    "title": "Walletoo - L'assistant de gestion de finances",
+    "startDate": "2023",
+    "description": "Walletoo est un assistant de gestion de finances personnelles. Il permet de gérer ses finances en toute simplicité. Il suffit de se connecter et d'entrer ses revenus et ses charges mensuelles. Walletoo se charge de calculer le reste à vivre et de vous proposer des solutions d'épargne, des graphiques etc.",
+    "images": ["walletoo"],
+    "url": "https://walletoo.vercel.app/",
+    "technologies": [
+      {
+        "class": "devicon-nextjs-plain colored",
+        "name": "NextJs"
+      },
+      {
+        "class": "devicon-typescript-plain colored",
+        "name": "TypeScript"
+      },
+      {
+        "class": "devicon-nodejs-plain colored",
+        "name": "NodeJs"
+      }
+    ]
+  },
+  {
+    "title": "Générateur de séance de musculation [mobile-friendly only]",
+    "startDate": "2022",
+    "description": "ma-sante.fr est un gérénateur de séance de musculation 💪. Cette web app se charge de générer des séances avec des exercices toujours différents afin d'optimiser les résultats. Accompagné d'un GIF animé, les exercices sont faciles à reproduire.",
+    "images": ["workoutGenerator"],
+    "url": "https://ma-seance.vercel.app/",
+    "technologies": [
+      {
+        "class": "devicon-nextjs-plain colored",
+        "name": "NextJs"
+      },
+      {
+        "class": "devicon-typescript-plain colored",
+        "name": "TypeScript"
+      },
+      {
+        "class": "devicon-nodejs-plain colored",
+        "name": "NodeJs"
+      }
+    ]
+  },
+  {
+    "title": "Piano",
+    "startDate": "2022",
+    "description": "De l'enregistrement du son des clés jusqu'au design, ce projet m'a appris à gérer les évènements et les performances ! En plus, on peut y passer des heures sans avoir besoin d'en acheter un 🤓",
+    "images": ["piano"],
+    "url": "https://brazillierjo.github.io/piano/",
+    "technologies": [
+      {
+        "class": "devicon-html5-plain colored",
+        "name": "HTML"
+      },
+      {
+        "class": "devicon-css3-plain colored",
+        "name": "CSS"
+      },
+      {
+        "class": "devicon-javascript-plain colored",
+        "name": "JavaScript"
+      }
+    ]
+  },
+  {
+    "title": "Sites WordPress en tout genre",
+    "startDate": "2022",
+    "description": "Création de sites WordPress 🎨. De la configuration du thème à la création des pages, je m'occupe de tout !",
+    "images": ["concession"],
+    "technologies": [
+      {
+        "class": "devicon-wordpress-plain-wordmark colored",
+        "name": "WordPress"
+      }
+    ]
+  },
+  {
+    "title": "Vitassurance",
+    "startDate": "2021",
+    "description": "Site de courtage en assurances vous permettant de comparer rapidement les offres des différents assureurs. Une fois le formulaire rempli par le visiteur, ses informations sont transmises via une API à un CRM afin de gérer le dossier du nouveau client.",
+    "images": ["vitassurance"],
+    "url": "https://vitassurance.fr/",
+    "technologies": [
+      {
+        "class": "devicon-html5-plain colored",
+        "name": "HTML"
+      },
+      {
+        "class": "devicon-css3-plain colored",
+        "name": "CSS"
+      },
+      {
+        "class": "devicon-nodejs-plain colored",
+        "name": "NodeJs"
+      }
+    ]
+  },
+  {
+    "title": "Web Calculator",
+    "startDate": "2020",
+    "description": "Projet réalisé dans le but d'approfondir mes connaissances JavaScript Vanilla. Vous pouvez choisir entre des calculs de base ou des calculs avancés. Apprentissage du light/night mode.",
+    "images": ["calculator"],
+    "url": "https://brazillierjo.github.io/calculator/",
+    "technologies": [
+      {
+        "class": "devicon-html5-plain colored",
+        "name": "HTML"
+      },
+      {
+        "class": "devicon-css3-plain colored",
+        "name": "CSS"
+      },
+      {
+        "class": "devicon-javascript-plain colored",
+        "name": "Javascript"
+      }
+    ]
+  },
+  {
+    "title": "Markdown Previewer",
+    "startDate": "2020",
+    "description": "Markdown réalisé dans le but d'une formation React. Déployé sur GitHub Pages.",
+    "images": ["markdown"],
+    "url": "https://brazillierjo.github.io/markdown/",
+    "technologies": [
+      {
+        "class": "devicon-react-plain colored",
+        "name": "React"
+      },
+      {
+        "class": "devicon-html5-plain colored",
+        "name": "HTML"
+      },
+      {
+        "class": "devicon-css3-plain colored",
+        "name": "CSS"
+      }
+    ]
+  }
 ]

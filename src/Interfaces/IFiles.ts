@@ -1,53 +1,53 @@
 export type Generics = {
-    [key: string]: {
-        [key: string]: string;
-    };
+  [key: string]: {
+    [key: string]: string;
+  };
 };
 
 export type AboutMeItem = {
-    isInReadMore: boolean;
-    emoji: string;
-    text: string;
+  isInReadMore: boolean;
+  emoji: string;
+  text: string;
 };
 
 export type EducationItem = {
-    company: string;
-    title: string;
-    years: string;
-    mainTech: string[];
-    technologies: never[];
+  company: string;
+  title: string;
+  years: string;
+  mainTech: string[];
+  technologies: never[];
 };
 
 export type ExperienceItem = {
-    company: string;
-    title: string;
-    years: string;
-    technologies: string[] | null;
+  company: string;
+  title: string;
+  years: string;
+  technologies: string[] | null;
 };
 
 export type ProjectItem = {
-    title: string;
-    startDate: string;
-    description: string;
-    images: string[];
-    url?: string;
-    technologies: {
-        class: string;
-        name: string;
-    }[];
+  title: string;
+  startDate: string;
+  description: string;
+  images: string[];
+  url?: string;
+  technologies: {
+    class: string;
+    name: string;
+  }[];
 };
 
 export type ContactPage = {
-    title: string;
-    description: string;
-    description2: string;
-    linkedInContact: string;
-    mailContact: string;
-    maltContact: string;
+  title: string;
+  description: string;
+  description2: string;
+  linkedInContact: string;
+  mailContact: string;
+  maltContact: string;
 };
 
 export interface IFiles {
-    [key: string]: {
-        [lang: string]: (AboutMeItem | EducationItem | ExperienceItem | ProjectItem)[] | Generics | ContactPage;
-    };
+  [key: string]: {
+    [lang: string]: (AboutMeItem | EducationItem | ExperienceItem | ProjectItem)[] | Generics | ContactPage;
+  };
 }

@@ -1,35 +1,35 @@
 {
-    "buttons": {
-        "contactMe": "Contact me",
-        "readMore": "Read more...",
-        "close": "Close",
-        "goToProjects": "See my projects",
-        "seeProject": "See the project"
-    },
-    "main": {
-        "firstLine": "Hello 👋",
-        "secondLine": "I'm Brazillier Johan - curious developer based in South of France."
-    },
-    "aboutMe": {
-        "title": "About me",
-        "firstSkill": "Front-end development",
-        "secondSkill": "Back-end development",
-        "thirdSkill": "UX/UI",
-        "fourthSkill": "SEO",
-        "fifthSkill": "Optimization"
-    },
-    "experiences": {
-        "title": "Experiences & Educations",
-        "professionalPath": "My professionnal career",
-        "scholarPath": "My scholar career"
-    },
-    "portfolio": {
-        "title": "Portfolio",
-        "subTitle": "⚠️ These projects are my personal projects. My professional projects obviously cannot be displayed here for legal reasons."
-    },
-    "contactMe": {
-        "title": "Contact",
-        "subTitle": "Let's work together !",
-        "button": "Schedule a call"
-    }
+  "buttons": {
+    "contactMe": "Contact me",
+    "readMore": "Read more...",
+    "close": "Close",
+    "goToProjects": "See my projects",
+    "seeProject": "See the project"
+  },
+  "main": {
+    "firstLine": "Hello 👋",
+    "secondLine": "I'm Brazillier Johan - curious developer based in South of France."
+  },
+  "aboutMe": {
+    "title": "About me",
+    "firstSkill": "Front-end development",
+    "secondSkill": "Back-end development",
+    "thirdSkill": "UX/UI",
+    "fourthSkill": "SEO",
+    "fifthSkill": "Optimization"
+  },
+  "experiences": {
+    "title": "Experiences & Educations",
+    "professionalPath": "My professionnal career",
+    "scholarPath": "My scholar career"
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "subTitle": "⚠️ These projects are my personal projects. My professional projects obviously cannot be displayed here for legal reasons."
+  },
+  "contactMe": {
+    "title": "Contact",
+    "subTitle": "Let's work together !",
+    "button": "Schedule a call"
+  }
 }

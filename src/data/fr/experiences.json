@@ -1,38 +1,38 @@
 [
-    {
-        "company": "La Boîte Immo",
-        "title": "Développeur front-End",
-        "years": "2022 (en cours)",
-        "technologies": ["TypeScript", "React", "Next.js", "REST API", "Docker", "React-admin", "api-platform", "AGILE"]
-    },
-    {
-        "company": "GetUp Agency",
-        "title": "Développeur front-End",
-        "years": "2022",
-        "technologies": ["Wordpress", "JavaScript", "TypeScript", "React", "REST API", "Bootstrap"]
-    },
-    {
-        "company": "JoCorp",
-        "title": "Développeur freelance",
-        "years": "2022",
-        "technologies": ["Wordpress", "JavaScript", "TypeScript", "React", "Vue", "REST API", "Tailwind"]
-    },
-    {
-        "company": "Vitassurance",
-        "title": "Développeur front-end & back-end",
-        "years": "2021",
-        "technologies": ["HTML", "CSS", "JavaScript", "REST API", "NodeJS"]
-    },
-    {
-        "company": "poupepoupi.com",
-        "title": "Web Analyste (6 ans)",
-        "years": "2014 - 2020",
-        "technologies": ["SEO", "Prestashop"]
-    },
-    {
-        "company": "Grandes enseignes | Jardineries | Animation",
-        "title": "Petits jobs dans plusieurs domaines",
-        "years": "2011 - 2014",
-        "technologies": null
-    }
+  {
+    "company": "La Boîte Immo",
+    "title": "Développeur front-End",
+    "years": "2022 (en cours)",
+    "technologies": ["TypeScript", "React", "Next.js", "REST API", "Docker", "React-admin", "api-platform", "AGILE"]
+  },
+  {
+    "company": "GetUp Agency",
+    "title": "Développeur front-End",
+    "years": "2022",
+    "technologies": ["Wordpress", "JavaScript", "TypeScript", "React", "REST API", "Bootstrap"]
+  },
+  {
+    "company": "JoCorp",
+    "title": "Développeur freelance",
+    "years": "2022",
+    "technologies": ["Wordpress", "JavaScript", "TypeScript", "React", "Vue", "REST API", "Tailwind"]
+  },
+  {
+    "company": "Vitassurance",
+    "title": "Développeur front-end & back-end",
+    "years": "2021",
+    "technologies": ["HTML", "CSS", "JavaScript", "REST API", "NodeJS"]
+  },
+  {
+    "company": "poupepoupi.com",
+    "title": "Web Analyste (6 ans)",
+    "years": "2014 - 2020",
+    "technologies": ["SEO", "Prestashop"]
+  },
+  {
+    "company": "Grandes enseignes | Jardineries | Animation",
+    "title": "Petits jobs dans plusieurs domaines",
+    "years": "2011 - 2014",
+    "technologies": null
+  }
 ]

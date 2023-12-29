@@ -1,11 +1,11 @@
 import { Link } from "react-scroll";
 
 interface ReactScrollLinkProps {
-    to: string;
-    label: string;
-    spy?: boolean;
-    smooth?: boolean;
-    duration?: number;
+  to: string;
+  label: string;
+  spy?: boolean;
+  smooth?: boolean;
+  duration?: number;
 }
 
 /**
@@ -20,11 +20,11 @@ interface ReactScrollLinkProps {
  * @returns {JSX.Element} The rendered React scroll link component.
  */
 function ReactScrollLink({ to, label, spy = true, smooth = true, duration = 400 }: ReactScrollLinkProps) {
-    return (
-        <Link to={to} spy={spy} smooth={smooth} duration={duration} className='cursor-pointer'>
-            {label}
-        </Link>
-    );
+  return (
+    <Link to={to} spy={spy} smooth={smooth} duration={duration} className="cursor-pointer">
+      {label}
+    </Link>
+  );
 }
 
 export default ReactScrollLink;

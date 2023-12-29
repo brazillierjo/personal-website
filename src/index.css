@@ -3,36 +3,36 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "Rubik";
-    src: url("./assets/font/Rubik-Regular.ttf") format("truetype");
+  font-family: "Rubik";
+  src: url("./assets/font/Rubik-Regular.ttf") format("truetype");
 }
 
 body {
-    font-family: "Rubik", sans-serif;
-    background: radial-gradient(circle, rgba(219, 219, 219, 0.5) 10%, transparent 5%);
-    background-size: 20px 20px;
-    cursor: url("./cursor.png"), auto;
+  font-family: "Rubik", sans-serif;
+  background: radial-gradient(circle, rgba(219, 219, 219, 0.5) 10%, transparent 5%);
+  background-size: 20px 20px;
+  cursor: url("./cursor.png"), auto;
 }
 
 .custom-btn {
-    @apply mt-8 w-fit rounded-md bg-black px-6 py-3 uppercase text-white transition-all duration-150 hover:bg-primary-400;
+  @apply mt-8 w-fit rounded-md bg-black px-6 py-3 uppercase text-white transition-all duration-150 hover:bg-primary-400;
 }
 
 .custom-min-h-screen {
-    min-height: calc(100vh - 56px);
+  min-height: calc(100vh - 56px);
 }
 
 .custom-box-shadow {
-    box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.5);
 }
 
 ::-webkit-scrollbar {
-    width: 5px;
-    height: 5px;
-    background-color: transparent;
+  width: 5px;
+  height: 5px;
+  background-color: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #2563eb;
-    border-radius: 15px;
+  background: #2563eb;
+  border-radius: 15px;
 }
