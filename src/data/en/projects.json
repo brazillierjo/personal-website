@@ -1,5 +1,26 @@
 [
     {
+        "title": "Walletoo - Personal Finance Manager",
+        "startDate": "2023",
+        "description": "Walletoo is a personal finance management assistant. It enables straightforward financial management by simply logging in and entering monthly income and expenses. Walletoo calculates disposable income and provides suggestions for savings, graphs, etc.",
+        "images": ["walletoo"],
+        "url": "https://walletoo.vercel.app/",
+        "technologies": [
+            {
+                "class": "devicon-nextjs-plain colored",
+                "name": "NextJs"
+            },
+            {
+                "class": "devicon-typescript-plain colored",
+                "name": "TypeScript"
+            },
+            {
+                "class": "devicon-nodejs-plain colored",
+                "name": "NodeJs"
+            }
+        ]
+    },
+    {
         "title": "Workout Session Generator [mobile-friendly only]",
         "startDate": "2022",
         "description": "ma-sante.fr is a workout session generator 💪. This web app generates sessions with different exercises to optimize results. Accompanied by an animated GIF, the exercises are easy to reproduce.",
@@ -38,19 +59,6 @@
             {
                 "class": "devicon-javascript-plain colored",
                 "name": "JavaScript"
-            }
-        ]
-    },
-    {
-        "title": "My Mortgage Insurance",
-        "startDate": "2022",
-        "description": "My Mortgage Insurance is an online mortgage insurance brokerage website. It allows users to compare offers from different insurers to find the best insurance for their needs.",
-        "images": ["monassurancedepretbancaire"],
-        "url": "https://monassurancedepretbancaire.fr/",
-        "technologies": [
-            {
-                "class": "devicon-wordpress-plain-wordmark colored",
-                "name": "WordPress"
             }
         ]
     },

@@ -3,7 +3,7 @@
         "company": "La Boîte Immo",
         "title": "Développeur front-End",
         "years": "2022 (en cours)",
-        "technologies": ["TypeScript", "React", "REST API", "Docker", "React-admin", "AGILE"]
+        "technologies": ["TypeScript", "React", "Next.js", "REST API", "Docker", "React-admin", "api-platform", "AGILE"]
     },
     {
         "company": "GetUp Agency",

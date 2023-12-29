@@ -1,5 +1,26 @@
 [
     {
+        "title": "Walletoo - L'assistant de gestion de finances",
+        "startDate": "2023",
+        "description": "Walletoo est un assistant de gestion de finances personnelles. Il permet de gérer ses finances en toute simplicité. Il suffit de se connecter et d'entrer ses revenus et ses charges mensuelles. Walletoo se charge de calculer le reste à vivre et de vous proposer des solutions d'épargne, des graphiques etc.",
+        "images": ["walletoo"],
+        "url": "https://walletoo.vercel.app/",
+        "technologies": [
+            {
+                "class": "devicon-nextjs-plain colored",
+                "name": "NextJs"
+            },
+            {
+                "class": "devicon-typescript-plain colored",
+                "name": "TypeScript"
+            },
+            {
+                "class": "devicon-nodejs-plain colored",
+                "name": "NodeJs"
+            }
+        ]
+    },
+    {
         "title": "Générateur de séance de musculation [mobile-friendly only]",
         "startDate": "2022",
         "description": "ma-sante.fr est un gérénateur de séance de musculation 💪. Cette web app se charge de générer des séances avec des exercices toujours différents afin d'optimiser les résultats. Accompagné d'un GIF animé, les exercices sont faciles à reproduire.",
@@ -38,19 +59,6 @@
             {
                 "class": "devicon-javascript-plain colored",
                 "name": "JavaScript"
-            }
-        ]
-    },
-    {
-        "title": "Mon assurance de prêt bancaire",
-        "startDate": "2022",
-        "description": "Mon assurance de prêt bancaire est un site de courtage en assurance de prêt immobilier. Il permet de comparer les offres des différents assureurs afin de trouver la meilleure assurance pour le client.",
-        "images": ["monassurancedepretbancaire"],
-        "url": "https://monassurancedepretbancaire.fr/",
-        "technologies": [
-            {
-                "class": "devicon-wordpress-plain-wordmark colored",
-                "name": "WordPress"
             }
         ]
     },

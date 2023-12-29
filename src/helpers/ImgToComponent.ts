@@ -5,20 +5,20 @@ import creche from "../assets/webp/creche.webp";
 import markdown from "../assets/webp/markdown.webp";
 import piano from "../assets/webp/piano.webp";
 import vitassurance from "../assets/webp/vitassurance.webp";
-import waletoo from "../assets/webp/waletoo.webp";
+import walletoo from "../assets/webp/walletoo.webp";
 import workoutGenerator from "../assets/webp/workoutGenerator.webp";
-import monassurancedepretbancaire from "../assets/webp/monassurancedepretbancaire.webp";
 
-const ImgToComponent: any = {
+type ImgToComponentType<T extends string> = Record<T, string>;
+
+const ImgToComponent: ImgToComponentType<string> = {
     calculator,
     concession,
     creche,
     markdown,
     piano,
-    monassurancedepretbancaire,
     vitassurance,
-    waletoo,
     workoutGenerator,
+    walletoo,
 };
 
 export const img = (key: number, image: string) => {
