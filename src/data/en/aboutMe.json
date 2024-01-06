@@ -28,5 +28,10 @@
     "isInReadMore": true,
     "emoji": "🍾",
     "text": "Since then, I have worked with several companies on complete integrations, provided assistance to deliver projects on time, made modifications, and added new features... Today, I work as a full-time developer."
+  },
+  {
+    "isInReadMore": true,
+    "emoji": "👷",
+    "text": "Today, drawing strength from my journey, I master the intricacies of the Agile methodology, the principles of Clean Code, and CI/CD pipelines, ensuring optimal scalability and maintainability for each web application I develop. My diverse experience, spanning from SEO to programming, enables me to bring a unique perspective to every project."
   }
 ]
