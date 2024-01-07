@@ -1,13 +1,24 @@
 [
   {
     "company": "La Boîte Immo",
-    "title": "Développeur front-End",
+    "title": "Développeur front-end",
     "years": "2022 (en cours)",
-    "technologies": ["TypeScript", "React", "Next.js", "REST API", "Docker", "React-admin", "api-platform", "AGILE"]
+    "technologies": [
+      "TypeScript",
+      "React",
+      "Next.js",
+      "JEST",
+      "testing-library/react",
+      "REST API",
+      "Docker",
+      "React-admin",
+      "api-platform",
+      "AGILE"
+    ]
   },
   {
     "company": "GetUp Agency",
-    "title": "Développeur front-End",
+    "title": "Développeur front-end",
     "years": "2022",
     "technologies": ["Wordpress", "JavaScript", "TypeScript", "React", "REST API", "Bootstrap"]
   },
